@@ -1,0 +1,16 @@
+# Privacy: Hide my API tokens
+.env
+
+# Python: Hide temporary "compiled" files
+__pycache__/
+*.py[cod]
+*.class
+
+# Mac: Hide hidden system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment: Hide your virtual environment if you make one
+venv/
+env/
