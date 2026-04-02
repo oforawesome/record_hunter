@@ -1,0 +1,4 @@
+requests
+musicbrainzngs
+streamlit
+python-dotenv
