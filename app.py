@@ -37,7 +37,9 @@ artist_input = st.text_input("Enter Artist Name (e.g., The Cure, U2):")
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
         official_studio_list = get_studio_albums(artist_input)
-        my_artist_records = [r for r in my_collection if artist_input.lower() in r.lower()]
+        # Old way: [r for r in my_collection if artist_input.lower() in r.lower()]
+	# New way:
+	my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
     if not official_studio_list:
         st.warning("No studio albums found for that artist.")
@@ -56,15 +58,16 @@ if artist_input:
         	# --- DISPLAY RESULTS ---
         col1, col2 = st.columns(2)
         
-        with col1:
+with col1:
             st.header("✅ Owned")
-            for a in sorted(owned_studio):
-                # Clean the display: "Artist - Album" becomes "Album"
-                if " - " in a:
-                    display_name = a.split(" - ", 1)[1] # Take everything after the first ' - '
-                else:
-                    display_name = a
-                st.write(f"- {display_name}")
+            # Sort by year so your collection shows chronologically!
+            sorted_owned = sorted(owned_studio, key=lambda x: x.get('year', 0))
+            
+            for a in sorted_owned:
+                year = a.get('year')
+                year_display = f"({year})" if year and year != 0 else ""
+                # We only show the title and the year now!
+                st.write(f"- **{a['title']}** {year_display}")
 
         with col2:
             st.header("❌ Missing")

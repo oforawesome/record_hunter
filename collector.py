@@ -20,15 +20,20 @@ def refresh_collection():
     for item in collection:
         release = item.release
         
-        # Grab the artist name safely
+        # Grab the data points
         artist = release.artists[0].name
         title = release.title
+        # Some records might not have a year set in Discogs, so we use .get() safely
+        year = getattr(release, 'year', 0) 
         
-        # Create the searchable string: "U2 - War"
-        entry = f"{artist} - {title}"
-        collection_list.append(entry)
+        # Instead of a string, we store a DICTIONARY
+        record_entry = {
+            "artist": artist,
+            "title": title,
+            "year": year
+        }
+        collection_list.append(record_entry)
         
-        # Print every 50th record so you know it's working without spamming the screen
         if len(collection_list) % 50 == 0:
             print(f"--- 📦 Processed {len(collection_list)} records...")
 
