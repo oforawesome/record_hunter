@@ -69,7 +69,7 @@ with col1:
                 # We only show the title and the year now!
                 st.write(f"- **{a['title']}** {year_display}")
 
-        with col2:
+with col2:
             st.header("❌ Missing")
             for m in sorted(missing_studio):
                 # Trade Me Link Button!
