@@ -1,4 +1,14 @@
+import os
 import streamlit as st
+
+# Check if we are in the cloud (Streamlit) or local (.env)
+if "DISCOGS_TOKEN" in st.secrets:
+    token = st.secrets["DISCOGS_TOKEN"]
+else:
+    # Fallback for your local MacBook testing
+    from dotenv import load_dotenv
+    load_dotenv()
+    token = os.getenv("DISCOGS_TOKEN")
 import json
 from cataloguer import get_studio_albums
 from difflib import SequenceMatcher
