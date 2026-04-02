@@ -39,7 +39,7 @@ if artist_input:
         official_studio_list = get_studio_albums(artist_input)
         # Old way: [r for r in my_collection if artist_input.lower() in r.lower()]
 	# New way:
-	my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
+        my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
     if not official_studio_list:
         st.warning("No studio albums found for that artist.")
