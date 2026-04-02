@@ -53,13 +53,18 @@ if artist_input:
             else:
                 missing_studio.append(studio_album)
 
-        # --- DISPLAY RESULTS ---
+        	# --- DISPLAY RESULTS ---
         col1, col2 = st.columns(2)
         
         with col1:
             st.header("✅ Owned")
             for a in sorted(owned_studio):
-                st.write(f"- {a}")
+                # Clean the display: "Artist - Album" becomes "Album"
+                if " - " in a:
+                    display_name = a.split(" - ", 1)[1] # Take everything after the first ' - '
+                else:
+                    display_name = a
+                st.write(f"- {display_name}")
 
         with col2:
             st.header("❌ Missing")
