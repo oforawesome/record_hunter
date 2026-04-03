@@ -51,30 +51,25 @@ if artist_input:
         missing_studio = []
 
 
-    for album_data in official_studio_list:
+for album_data in official_studio_list:
         studio_title = album_data['title']
         studio_year = album_data['year']
-    
-        # Use studio_title for the fuzzy matching
-        match = next((t for t in owned_titles if is_similar(studio_title, t)), None)
-    
-        if not match:
-            missing_studio.append(album_data) # Keep the whole dictionary for the display!
-
-        # --- DISPLAY RESULTS ---
-        col1, col2 = st.columns(2)
         
-        with col1:
-            st.header("✅ Owned (Full Collection)")
-            # Sort your full owned list by year
-            sorted_owned = sorted(my_artist_records, key=lambda x: x.get('year', 0))
-            for a in sorted_owned:
-                year = a.get('year')
-                year_display = f"({year})" if year and year != 0 else ""
-                st.write(f"- **{a['title']}** {year_display}")
+        match = next((t for t in owned_titles if is_similar(studio_title, t)), None)
+        
+        if not match:
+            missing_studio.append(album_data)
 
-        with col2:
-            st.header("❌ Missing (Studio Only)")
+    # --- DISPLAY RESULTS --- (THIS LINE MUST BE FLUSH WITH THE 'FOR' ABOVE)
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.header("✅ Owned (Full Collection)")
+        # ... (rest of your col1 code) ...
+
+    with col2:
+        st.header("❌ Missing (Studio Only)")
+        # ... (rest of your col2 code) ...
             
             # Sort by year (we convert it to a string just in case it's 'N/A')
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '0')))
