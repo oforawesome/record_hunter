@@ -75,7 +75,17 @@ if artist_input:
 
         with col2:
             st.header("❌ Missing (Studio Only)")
-            for m in sorted(missing_studio):
-                q = f"{artist_input} {m} vinyl"
+            
+            # Sort by year (we convert it to a string just in case it's 'N/A')
+            sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '0')))
+            
+            for m in sorted_missing:
+                m_title = m['title']
+                m_year = m['year']
+                
+                # Format the link using the title
+                q = f"{artist_input} {m_title} vinyl"
                 link = f"https://www.trademe.co.nz/marketplace/music-instruments/vinyl/search?searchstring={q.replace(' ', '+')}"
-                st.markdown(f"- {m} [🛒]({link})")
+                
+                # Display the title and the year
+                st.markdown(f"- **{m_title}** ({m_year}) [🛒]({link})")
