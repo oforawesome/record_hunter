@@ -1,42 +1,36 @@
 import musicbrainzngs
 import time
 
-# Tell MusicBrainz who is calling
+# Setup
 musicbrainzngs.set_useragent("RecordHunter", "1.1", "your_email@example.com")
 
 def get_studio_albums(artist_name):
     try:
-        # Everything from here down to 'return' is INDENTED 4 spaces
-        # 1. Find the artist
-        search_results = musicbrainzngs.search_artists(artist=artist_name)
-        if not search_results['artist-list']:
+        # 1. Search for the artist
+        search = musicbrainzngs.search_artists(artist=artist_name)
+        if not search['artist-list']:
             return []
-            
-        artist_id = search_results['artist-list'][0]['id']
         
-        # 2. Get the albums
-        result = musicbrainzngs.get_artist_by_id(artist_id, includes=["release-groups"])
-        release_groups = result['artist']['release-group-list']
+        artist_id = search['artist-list'][0]['id']
+        
+        # 2. Get their release groups
+        data = musicbrainzngs.get_artist_by_id(artist_id, includes=["release-groups"])
+        groups = data['artist']['release-group-list']
         
         albums = []
-        for group in release_groups:
-            # We want Studio Albums (Primary type 'Album', no secondary types like 'Live')
-            p_type = group.get('primary-type', '')
-            s_types = group.get('secondary-type-list', [])
+        for g in groups:
+            # Filter for Studio Albums ONLY
+            p_type = g.get('primary-type', '')
+            s_types = g.get('secondary-type-list', [])
             
             if p_type == 'Album' and not s_types:
-                title = group['title']
-                release_date = group.get('first-release-date', '')
-                year = release_date[:4] if release_date else "N/A"
-                
                 albums.append({
-                    "title": title,
-                    "year": year
+                    "title": g['title'],
+                    "year": g.get('first-release-date', 'N/A')[:4]
                 })
         
         return albums
 
     except Exception as e:
-        # This 'except' lines up vertically with the 'try'
-        print(f"⚠️ MusicBrainz Error: {e}")
+        print(f"Error: {e}")
         return []
