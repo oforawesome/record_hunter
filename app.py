@@ -36,43 +36,42 @@ artist_input = st.text_input("Enter Artist Name (e.g., The Cure, U2):")
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
+        # 1. Get the "Gold Standard" (Studio Albums only) from MusicBrainz
         official_studio_list = get_studio_albums(artist_input)
-        # Old way: [r for r in my_collection if artist_input.lower() in r.lower()]
-	# New way:
+        
+        # 2. Get EVERYTHING you own by this artist (Live, Compilations, Studio)
+        # We don't filter this list by 'type' yet—we want to show it all!
         my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
-    if not official_studio_list:
-        st.warning("No studio albums found for that artist.")
+    if not my_artist_records and not official_studio_list:
+        st.warning("No records found for that artist.")
     else:
-        owned_studio = []
+        # --- THE AUDIT LOGIC ---
+        # We check which of the OFFICIAL studio albums are missing from your total list
+        owned_titles = [r['title'] for r in my_artist_records]
         missing_studio = []
 
         for studio_album in official_studio_list:
-            match = next((r for r in my_artist_records if is_similar(studio_album, r)), None)
-            if match:
-                owned_studio.append(match)
-                my_artist_records.remove(match)
-            else:
+            # If the studio album isn't in your 'owned' list (using fuzzy matching)
+            match = next((t for t in owned_titles if is_similar(studio_album, t)), None)
+            if not match:
                 missing_studio.append(studio_album)
 
-        	# --- DISPLAY RESULTS ---
+        # --- DISPLAY RESULTS ---
         col1, col2 = st.columns(2)
         
-with col1:
-            st.header("✅ Owned")
-            # Sort by year so your collection shows chronologically!
-            sorted_owned = sorted(owned_studio, key=lambda x: x.get('year', 0))
-            
+        with col1:
+            st.header("✅ Owned (Full Collection)")
+            # Sort your full owned list by year
+            sorted_owned = sorted(my_artist_records, key=lambda x: x.get('year', 0))
             for a in sorted_owned:
                 year = a.get('year')
                 year_display = f"({year})" if year and year != 0 else ""
-                # We only show the title and the year now!
                 st.write(f"- **{a['title']}** {year_display}")
 
-with col2:
-            st.header("❌ Missing")
+        with col2:
+            st.header("❌ Missing (Studio Only)")
             for m in sorted(missing_studio):
-                # Trade Me Link Button!
                 q = f"{artist_input} {m} vinyl"
                 link = f"https://www.trademe.co.nz/marketplace/music-instruments/vinyl/search?searchstring={q.replace(' ', '+')}"
                 st.markdown(f"- {m} [🛒]({link})")
