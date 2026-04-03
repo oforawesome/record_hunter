@@ -1,6 +1,6 @@
+import streamlit as st
 import os
 import json
-import streamlit as st  # <--- MUST be before you use st.secrets
 from dotenv import load_dotenv
 from cataloguer import get_studio_albums
 from difflib import SequenceMatcher
