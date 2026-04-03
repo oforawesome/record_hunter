@@ -1,17 +1,16 @@
 import os
-import streamlit as st
+import json
+import streamlit as st  # <--- MUST be before you use st.secrets
+from dotenv import load_dotenv
+from cataloguer import get_studio_albums
+from difflib import SequenceMatcher
 
-# Check if we are in the cloud (Streamlit) or local (.env)
+# NOW you can run the logic
 if "DISCOGS_TOKEN" in st.secrets:
     token = st.secrets["DISCOGS_TOKEN"]
 else:
-    # Fallback for your local MacBook testing
-    from dotenv import load_dotenv
     load_dotenv()
     token = os.getenv("DISCOGS_TOKEN")
-import json
-from cataloguer import get_studio_albums
-from difflib import SequenceMatcher
 
 # --- UI SETUP ---
 st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵")
