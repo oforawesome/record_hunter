@@ -4,7 +4,7 @@ import time  # <--- New import for pausing
 # Use a specific user agent so MusicBrainz doesn't think you're a bot
 musicbrainzngs.set_useragent("RecordHunter", "1.1", "your_email@example.com")
 
-ddef get_studio_albums(artist_name):
+def get_studio_albums(artist_name):
     # ... (Your existing setup code: musicbrainzngs.search_artists, etc.)
     
     # After you get the release_groups from MusicBrainz:
