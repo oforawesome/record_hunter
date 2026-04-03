@@ -51,11 +51,16 @@ if artist_input:
         owned_titles = [r['title'] for r in my_artist_records]
         missing_studio = []
 
-        for studio_album in official_studio_list:
-            # If the studio album isn't in your 'owned' list (using fuzzy matching)
-            match = next((t for t in owned_titles if is_similar(studio_album, t)), None)
-            if not match:
-                missing_studio.append(studio_album)
+
+    for album_data in official_studio_list:
+        studio_title = album_data['title']
+        studio_year = album_data['year']
+    
+        # Use studio_title for the fuzzy matching
+        match = next((t for t in owned_titles if is_similar(studio_title, t)), None)
+    
+        if not match:
+            missing_studio.append(album_data) # Keep the whole dictionary for the display!
 
         # --- DISPLAY RESULTS ---
         col1, col2 = st.columns(2)

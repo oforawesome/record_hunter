@@ -4,30 +4,29 @@ import time  # <--- New import for pausing
 # Use a specific user agent so MusicBrainz doesn't think you're a bot
 musicbrainzngs.set_useragent("RecordHunter", "1.1", "your_email@example.com")
 
-def get_studio_albums(artist_name):
-    print(f"--- 🌐 Fetching official albums for {artist_name}...")
+ddef get_studio_albums(artist_name):
+    # ... (Your existing setup code: musicbrainzngs.search_artists, etc.)
     
-    try:
-        # 1. Search for the artist
-        result = musicbrainzngs.search_artists(artist=artist_name)
-        if not result['artist-list']: 
-            return []
-        
-        artist_id = result['artist-list'][0]['id']
-        
-        # 2. Add a tiny 1-second pause to be polite to the server
-        time.sleep(1)
-        
-        # 3. Fetch the release groups
-        groups = musicbrainzngs.browse_release_groups(artist=artist_id, release_type=['album'])
-        
-        final_titles = []
-        for g in groups['release-group-list']:
-            # STRICT FILTER: Must be 'Album' and have NO secondary types (No Live/Comp)
-            if g.get('type') == 'Album' and not g.get('secondary-type-list'):
-                final_titles.append(g['title'])
-                
-        return sorted(list(set(final_titles)))
+    # After you get the release_groups from MusicBrainz:
+    albums = []
+    for group in release_groups:
+        # We only want "Studio" albums (not live or compilations)
+        if 'type' in group and group['type'] == 'Album':
+            # 1. Get the Title
+            title = group['title']
+            
+            # 2. Get the Year (MusicBrainz calls this 'first-release-date')
+            # It usually looks like "1975-08-25", so we take the first 4 characters
+            release_date = group.get('first-release-date', '')
+            year = release_date[:4] if release_date else "N/A"
+            
+            # 3. Save as a dictionary instead of just a string
+            albums.append({
+                "title": title,
+                "year": year
+            })
+            
+    return albums
 
     except Exception as e:
         print(f"⚠️ Network hiccup: {e}")
