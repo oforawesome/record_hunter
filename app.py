@@ -51,25 +51,31 @@ if artist_input:
         missing_studio = []
 
 
-for album_data in official_studio_list:
+# ... previous code where you check for matches ...
+    for album_data in official_studio_list:
         studio_title = album_data['title']
-        studio_year = album_data['year']
-        
         match = next((t for t in owned_titles if is_similar(studio_title, t)), None)
-        
         if not match:
             missing_studio.append(album_data)
 
-    # --- DISPLAY RESULTS --- (THIS LINE MUST BE FLUSH WITH THE 'FOR' ABOVE)
+    # --- THIS IS THE CRITICAL ALIGNMENT (Line 64) ---
+    # This line should have the EXACT same number of spaces as the 'for' above it.
     col1, col2 = st.columns(2)
     
     with col1:
         st.header("✅ Owned (Full Collection)")
-        # ... (rest of your col1 code) ...
-
+        # ... (your owned display logic)
+        
     with col2:
         st.header("❌ Missing (Studio Only)")
-        # ... (rest of your col2 code) ...
+        # Make sure this 'sorted' uses the 'key' so it doesn't crash on dictionaries!
+        sorted_missing = sorted(missing_studio, key=lambda x: x.get('year', '9999'))
+        for m in sorted_missing:
+            m_title = m['title']
+            m_year = m['year']
+            q = f"{artist_input} {m_title} vinyl"
+            link = f"https://www.trademe.co.nz/marketplace/music-instruments/vinyl/search?searchstring={q.replace(' ', '+')}"
+            st.markdown(f"- **{m_title}** ({m_year}) [🛒]({link})")
             
             # Sort by year (we convert it to a string just in case it's 'N/A')
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '0')))
