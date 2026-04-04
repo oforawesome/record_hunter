@@ -36,13 +36,18 @@ def get_keep_client():
     return None
 
 def add_to_keep_list(album_text):
-    """Adds an item to the specific 'Records' list and syncs."""
     keep = get_keep_client()
     if keep:
-        glist = keep.get(RECORDS_LIST_ID)
+        # Instead of keep.get(ID), let's find it by name
+        glist = None
+        for g in keep.all():
+            if g.title == "Records" and isinstance(g, gkeepapi.node.List):
+                glist = g
+                break
+        
         if glist:
-            # Add as an unchecked item (False)
             glist.add(album_text, False)
+            st.write("Syncing with Google...") # Debug line
             keep.sync()
             return True
     return False
