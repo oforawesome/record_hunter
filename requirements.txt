@@ -1,4 +1,7 @@
+streamlit
+gkeepapi
 requests
 musicbrainzngs
 streamlit
 python-dotenv
+discogs_client
