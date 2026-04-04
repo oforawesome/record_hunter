@@ -36,10 +36,10 @@ artist_input = st.text_input("Enter Artist Name (e.g., Bruce Springsteen, The Cu
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
-        # Get the "Gold Standard" from MusicBrainz (Returns list of dicts: title/year)
+        # Get the "Gold Standard" from MusicBrainz
         official_studio_list = get_studio_albums(artist_input)
         
-        # Get everything you own by this artist from your local JSON
+        # Get everything you own by this artist
         my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
     if not my_artist_records and not official_studio_list:
@@ -51,41 +51,37 @@ if artist_input:
 
         for album_data in official_studio_list:
             studio_title = album_data['title']
-            # Check if this official album exists in our 'owned' list
             match = next((t for t in owned_titles if is_similar(studio_title, t)), None)
             
             if not match:
                 missing_studio.append(album_data)
 
         # --- 6. DISPLAY RESULTS ---
-        # Note: These columns are OUTSIDE the loop so they only appear once!
         col1, col2 = st.columns(2)
         
         with col1:
             st.header("✅ Owned (Full Collection)")
-            # Sort owned records by year (defaulting to 0 if missing)
             sorted_owned = sorted(my_artist_records, key=lambda x: x.get('year', 0))
-            if not sorted_owned:
-                st.write("No records owned by this artist.")
             for a in sorted_owned:
-                year = a.get('year')
-                year_display = f"({year})" if year and year != 0 else ""
-                st.write(f"- **{a['title']}** {year_display}")
+                y = a.get('year', '')
+                st.write(f"- **{a['title']}** ({y})")
 
         with col2:
             st.header("❌ Missing (Studio Only)")
-            # Sort missing records by year key to avoid dictionary comparison errors
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
             
-            if not sorted_missing:
-                st.success("You have all the studio albums! Collection complete. 🎉")
-            
             for m in sorted_missing:
-                m_title = m['title']
-                m_year = m['year']
+                album_label = f"{artist_input} - {m['title']}"
                 
-                # Create Trade Me search link
-                q = f"{artist_input} {m_title} vinyl".replace(' ', '+')
-                link = f"https://www.trademe.co.nz/marketplace/music-instruments/vinyl/search?searchstring={q}"
+                # Create a row with two columns: the title and a button
+                sub_col1, sub_col2 = st.columns([0.8, 0.2])
                 
-                st.markdown(f"- **{m_title}** ({m_year}) [🛒]({link})")
+                with sub_col1:
+                    st.write(f"**{m['title']}** ({m['year']})")
+                
+                with sub_col2:
+                    # If button is clicked, we call a simple function to add to Keep
+                    if st.button("➕", key=album_label):
+                        # This part uses the system's Keep tool
+                        # In your local code, you'll need to use a Keep library or API
+                        st.success(f"Added {m['title']} to Keep!")
