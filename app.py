@@ -25,14 +25,20 @@ st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵", layout="wide
 # --- 2. KEEP API HUB ---
 @st.cache_resource
 def get_keep_client():
-    """Authenticates with Google Keep once and reuses the session."""
     keep = gkeepapi.Keep()
     try:
-        success = keep.login(KEEP_EMAIL, KEEP_PASSWORD)
+        # Try to authenticate. 
+        # Ensure there are NO spaces in the secrets.
+        email = st.secrets["KEEP_EMAIL"].strip()
+        password = st.secrets["KEEP_PASSWORD"].strip()
+        
+        success = keep.authenticate(email, password)
         if success:
             return keep
+    except gkeepapi.exception.LoginException:
+        st.error("Invalid Credentials. Check your App Password.")
     except Exception as e:
-        st.error(f"Keep Login Failed: {e}")
+        st.error(f"Connection Error: {e}")
     return None
 
 def add_to_keep_list(album_text):
