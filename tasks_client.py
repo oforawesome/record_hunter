@@ -58,7 +58,7 @@ def add_record_to_tasks(album_text):
         tasklist_id = get_or_create_tasklist(service)
 
         task = {"title": album_text}
-        service.tasks().insert(tasklistId=tasklist_id, body=task).execute()
+        service.tasks().insert(tasklist=tasklist_id, body=task).execute()
         return True
 
     except Exception as e:
