@@ -20,13 +20,15 @@ def get_studio_albums(artist_name):
 
         # 2. Find the best matching artist by name (not just first result)
         artist_id = None
+        canonical_name = artist_name  # fallback
         for artist in search['artist-list']:
             if _name_match(artist_name, artist.get('name', '')):
                 artist_id = artist['id']
+                canonical_name = artist['name']  # use MusicBrainz casing
                 break
 
         if not artist_id:
-            return []
+            return [], artist_name
 
         # 3. Get their release groups
         data = musicbrainzngs.get_artist_by_id(artist_id, includes=["release-groups"])
@@ -43,8 +45,8 @@ def get_studio_albums(artist_name):
                     "year": g.get('first-release-date', 'N/A')[:4]
                 })
 
-        return albums
+        return albums, canonical_name
 
     except Exception as e:
         print(f"Error: {e}")
-        return []
+        return [], artist_name
