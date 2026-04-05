@@ -40,7 +40,7 @@ artist_input = st.text_input("Enter Artist Name (e.g., Bruce Springsteen, The Cu
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
-        official_studio_list = get_studio_albums(artist_input)
+        official_studio_list, canonical_artist = get_studio_albums(artist_input)
 
     my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
@@ -70,7 +70,7 @@ if artist_input:
             st.header("❌ Missing (Studio Only)")
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
             for m in sorted_missing:
-                album_label = f"{artist_input} - {m['title']} ({m['year']})"
+                album_label = f"{canonical_artist} - {m['title']} ({m['year']})"
                 sub_col1, sub_col2 = st.columns([0.8, 0.2])
 
                 with sub_col1:
