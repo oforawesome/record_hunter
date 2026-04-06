@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import json
+import discogs_client
 from dotenv import load_dotenv
 from cataloguer import get_studio_albums
 from difflib import SequenceMatcher
@@ -24,19 +25,54 @@ def is_similar(official_title, owned_string, threshold=0.8):
     own = str(owned_string).lower().strip()
     return (off in own) or (SequenceMatcher(None, off, own).ratio() > threshold)
 
+def fetch_discogs_collection():
+    """Pull the latest collection from Discogs and return as a list."""
+    client = discogs_client.Client('RecordHunter/1.0', user_token=DISCOGS_TOKEN)
+    user = client.identity()
+    collection = user.collection_folders[0].releases
+    collection_list = []
+    for item in collection:
+        release = item.release
+        collection_list.append({
+            "artist": release.artists[0].name,
+            "title": release.title,
+            "year": getattr(release, 'year', 0)
+        })
+    return collection_list
+
 # --- 3. DATA LOADING ---
-try:
-    with open('collection.json', 'r') as f:
-        my_collection = json.load(f)
-except FileNotFoundError:
-    st.error("⚠️ collection.json not found. Please run your collector locally first!")
-    st.stop()
+# Try loading from session state first, then fall back to collection.json
+if "my_collection" not in st.session_state:
+    try:
+        with open('collection.json', 'r') as f:
+            st.session_state.my_collection = json.load(f)
+    except FileNotFoundError:
+        st.session_state.my_collection = []
 
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
-st.markdown("Auditing your Discogs collection.")
 
-artist_input = st.text_input("Enter Artist Name:")
+# --- SYNC BUTTON ---
+col_title, col_sync = st.columns([0.85, 0.15])
+with col_title:
+    st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
+with col_sync:
+    if st.button("🔄 Sync Collection"):
+        with st.spinner("Fetching from Discogs..."):
+            try:
+                st.session_state.my_collection = fetch_discogs_collection()
+                st.toast(f"Synced {len(st.session_state.my_collection)} records!", icon="✅")
+            except Exception as e:
+                st.error(f"Sync failed: {e}")
+
+if not st.session_state.my_collection:
+    st.warning("⚠️ No collection loaded. Hit 🔄 Sync Collection to fetch from Discogs.")
+    st.stop()
+
+my_collection = st.session_state.my_collection
+
+# --- 5. ARTIST SEARCH ---
+artist_input = st.text_input("Enter Artist Name (e.g., Bruce Springsteen, The Cure):")
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
@@ -56,7 +92,7 @@ if artist_input:
             if not match:
                 missing_studio.append(album_data)
 
-        # --- 5. DISPLAY RESULTS ---
+        # --- 6. DISPLAY RESULTS ---
         col1, col2 = st.columns(2)
 
         with col1:
