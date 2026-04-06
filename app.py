@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import json
 import discogs_client
+from urllib.parse import quote_plus
 from dotenv import load_dotenv
 from cataloguer import get_studio_albums
 from difflib import SequenceMatcher
@@ -39,6 +40,11 @@ def fetch_discogs_collection():
             "year": getattr(release, 'year', 0)
         })
     return collection_list
+
+def trademe_url(artist, album):
+    """Build a TradeMe used vinyl search URL for an artist + album."""
+    query = quote_plus(f"{artist} {album}")
+    return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm?search={query}&condition=used"
 
 # --- 3. DATA LOADING ---
 # Try loading from session state first, then fall back to collection.json
@@ -107,12 +113,16 @@ if artist_input:
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
             for m in sorted_missing:
                 album_label = f"{canonical_artist} - {m['title']} ({m['year']})"
-                sub_col1, sub_col2 = st.columns([0.8, 0.2])
+                sub_col1, sub_col2, sub_col3 = st.columns([0.7, 0.15, 0.15])
 
                 with sub_col1:
                     st.write(f"**{m['title']}** ({m['year']})")
 
                 with sub_col2:
+                    url = trademe_url(canonical_artist, m['title'])
+                    st.link_button("🔍 TM", url)
+
+                with sub_col3:
                     if st.button("➕", key=album_label):
                         with st.spinner("Adding to Google Tasks..."):
                             if add_record_to_tasks(album_label):
