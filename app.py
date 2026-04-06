@@ -67,6 +67,8 @@ with col_sync:
         with st.spinner("Fetching from Discogs..."):
             try:
                 st.session_state.my_collection = fetch_discogs_collection()
+                with open("collection.json", "w") as f:
+                    json.dump(st.session_state.my_collection, f)
                 st.toast(f"Synced {len(st.session_state.my_collection)} records!", icon="✅")
             except Exception as e:
                 st.error(f"Sync failed: {e}")
