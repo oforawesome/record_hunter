@@ -44,7 +44,7 @@ def fetch_discogs_collection():
 def trademe_url(artist, album):
     """Build a TradeMe used vinyl search URL for an artist + album."""
     query = quote_plus(f"{artist} {album}")
-    return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm?search={query}&condition=used"
+    return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm/search?condition=used&search_string={query}"
 
 # --- 3. DATA LOADING ---
 # Try loading from session state first, then fall back to collection.json
