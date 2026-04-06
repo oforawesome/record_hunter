@@ -44,10 +44,11 @@ def get_or_create_tasklist(service):
     return new_list["id"]
 
 
-def add_record_to_tasks(album_text):
+def add_record_to_tasks(album_text, notes=None):
     """
     Add a record to the 'Records to Hunt' Google Tasks list.
     album_text: e.g. "The Cure - Disintegration (1989)"
+    notes: optional details text (e.g. TradeMe search URL)
     Returns True on success, False on failure.
     """
     try:
@@ -58,6 +59,8 @@ def add_record_to_tasks(album_text):
         tasklist_id = get_or_create_tasklist(service)
 
         task = {"title": album_text}
+        if notes:
+            task["notes"] = notes
         service.tasks().insert(tasklist=tasklist_id, body=task).execute()
         return True
 
