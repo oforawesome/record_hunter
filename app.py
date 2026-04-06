@@ -127,7 +127,8 @@ if artist_input:
                 with sub_col3:
                     if st.button("➕", key=album_label):
                         with st.spinner("Adding to Google Tasks..."):
-                            if add_record_to_tasks(album_label):
+                            task_text = f"{album_label} | {url}"
+                            if add_record_to_tasks(task_text):
                                 st.toast(f"Added {m['title']}!", icon="✅")
                             else:
                                 st.error("Failed to add.")
