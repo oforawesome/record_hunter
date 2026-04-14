@@ -67,12 +67,12 @@ check_password()
 
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
-st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
+st.markdown("Auditing your Discogs collection.")
 
 my_collection = st.session_state.my_collection
 
 # --- 5. ARTIST SEARCH ---
-artist_input = st.text_input("Enter Artist Name (e.g., Bruce Springsteen, The Cure):")
+artist_input = st.text_input("Enter Artist Name:")
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
