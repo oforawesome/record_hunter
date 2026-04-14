@@ -20,6 +20,24 @@ DISCOGS_TOKEN = get_secret("DISCOGS_TOKEN")
 
 st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵", layout="wide")
 
+# --- LOGIN GATE ---
+def check_password():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.title("🎵 Record Hunter")
+        password = st.text_input("Password", type="password")
+        if st.button("Login"):
+            if password == st.secrets["APP_PASSWORD"]:
+                st.session_state.authenticated = True
+                st.rerun()
+            else:
+                st.error("Incorrect password.")
+        st.stop()
+
+check_password()
+
 # --- 2. HELPER FUNCTIONS ---
 def is_similar(official_title, owned_string, threshold=0.8):
     off = str(official_title).lower().strip()
