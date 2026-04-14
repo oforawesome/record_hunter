@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import json
 import discogs_client
 from urllib.parse import quote_plus
 from dotenv import load_dotenv
@@ -19,24 +18,6 @@ def get_secret(key):
 DISCOGS_TOKEN = get_secret("DISCOGS_TOKEN")
 
 st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵", layout="wide")
-
-# --- LOGIN GATE ---
-def check_password():
-    if "authenticated" not in st.session_state:
-        st.session_state.authenticated = False
-
-    if not st.session_state.authenticated:
-        st.title("🎵 Record Hunter")
-        password = st.text_input("Password", type="password")
-        if st.button("Login"):
-            if password == st.secrets["APP_PASSWORD"]:
-                st.session_state.authenticated = True
-                st.rerun()
-            else:
-                st.error("Incorrect password.")
-        st.stop()
-
-check_password()
 
 # --- 2. HELPER FUNCTIONS ---
 def is_similar(official_title, owned_string, threshold=0.8):
@@ -64,36 +45,29 @@ def trademe_url(artist, album):
     query = quote_plus(f"{artist} {album}")
     return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm/search?condition=used&search_string={query}"
 
-# --- 3. DATA LOADING ---
-# Try loading from session state first, then fall back to collection.json
-if "my_collection" not in st.session_state:
-    try:
-        with open('collection.json', 'r') as f:
-            st.session_state.my_collection = json.load(f)
-    except FileNotFoundError:
-        st.session_state.my_collection = []
+# --- 3. LOGIN GATE ---
+def check_password():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.title("🎵 Record Hunter")
+        password = st.text_input("Password", type="password")
+        if st.button("Login"):
+            if password == st.secrets["APP_PASSWORD"]:
+                st.session_state.authenticated = True
+                with st.spinner("Loading your collection from Discogs..."):
+                    st.session_state.my_collection = fetch_discogs_collection()
+                st.rerun()
+            else:
+                st.error("Incorrect password.")
+        st.stop()
+
+check_password()
 
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
-
-# --- SYNC BUTTON ---
-col_title, col_sync = st.columns([0.85, 0.15])
-with col_title:
-    st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
-with col_sync:
-    if st.button("🔄 Sync Collection"):
-        with st.spinner("Fetching from Discogs..."):
-            try:
-                st.session_state.my_collection = fetch_discogs_collection()
-                with open("collection.json", "w") as f:
-                    json.dump(st.session_state.my_collection, f)
-                st.toast(f"Synced {len(st.session_state.my_collection)} records!", icon="✅")
-            except Exception as e:
-                st.error(f"Sync failed: {e}")
-
-if not st.session_state.my_collection:
-    st.warning("⚠️ No collection loaded. Hit 🔄 Sync Collection to fetch from Discogs.")
-    st.stop()
+st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
 
 my_collection = st.session_state.my_collection
 
