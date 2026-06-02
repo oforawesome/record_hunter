@@ -52,20 +52,22 @@ def is_similar(official_title, owned_string, threshold=0.8):
     own = str(owned_string).lower().strip()
     return (off in own) or (SequenceMatcher(None, off, own).ratio() > threshold)
 
-def fetch_discogs_collection():
-    """Pull the latest collection from Discogs and return as a list."""
-    client = discogs_client.Client('RecordHunter/1.0', user_token=DISCOGS_TOKEN)
-    user = client.identity()
-    collection = user.collection_folders[0].releases
-    collection_list = []
-    for item in collection:
-        release = item.release
-        collection_list.append({
-            "artist": release.artists[0].name,
-            "title": release.title,
-            "year": getattr(release, 'year', 0)
-        })
-    return collection_list
+def discogs_marketplace_url(artist, album):
+    """
+    Builds a direct link to the Discogs Marketplace.
+    Uses literal phrase quotes to force matches on BOTH the artist 
+    and album title, sorting by lowest price vinyl.
+    """
+    # Wrapping both fields in literal quotes eliminates messy fuzzy matches
+    strict_query = f'"{artist.strip()}" "{album.strip()}"'
+    
+    base_url = "https://www.discogs.com/sell/list?"
+    params = (
+        f"q={quote_plus(strict_query)}"
+        "&format=Vinyl"       # Restricts marketplace items to Vinyl
+        "&sort=price%2Casc"   # Sorts by price: Low to High
+    )
+    return base_url + params
 
 def trademe_url(artist, album):
     """Build a TradeMe used vinyl search URL for an artist + album."""
