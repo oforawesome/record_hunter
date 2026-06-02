@@ -45,25 +45,10 @@ def trademe_url(artist, album):
     query = quote_plus(f"{artist} {album}")
     return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm/search?condition=used&search_string={query}"
 
-# --- 3. LOGIN GATE ---
-def check_password():
-    if "authenticated" not in st.session_state:
-        st.session_state.authenticated = False
-
-    if not st.session_state.authenticated:
-        st.title("🎵 Record Hunter")
-        password = st.text_input("Password", type="password")
-        if st.button("Login"):
-            if password == st.secrets["APP_PASSWORD"]:
-                st.session_state.authenticated = True
-                with st.spinner("Loading your collection from Discogs..."):
-                    st.session_state.my_collection = fetch_discogs_collection()
-                st.rerun()
-            else:
-                st.error("Incorrect password.")
-        st.stop()
-
-check_password()
+# --- 3. LOGIN GATE (PASSWORD REMOVED) ---
+if "my_collection" not in st.session_state:
+    with st.spinner("Loading your collection from Discogs..."):
+        st.session_state.my_collection = fetch_discogs_collection()
 
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
