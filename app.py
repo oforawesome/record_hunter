@@ -32,9 +32,13 @@ def realgroovy_url(artist, album):
     return f"https://realgroovy.com/search?q={query}"
 
 def marbecks_url(artist, album):
-    """Build a Marbecks search URL."""
-    query = quote_plus(f"{artist} {album}")
-    return f"https://www.marbecks.co.nz/search/advanced.lsd?section=Vinyl&artist={query}"
+    """Build a functional Marbecks keyword search URL."""
+    # Combine artist and album into a single string, stripping out any brackets/artifacts
+    clean_query = f"{artist} {album}".strip()
+    # URL encode the spaces and special characters
+    query_encoded = quote_plus(clean_query)
+    # Target their global keyword lookup endpoint
+    return f"https://www.marbecks.co.nz/search/keyword/1/{query_encoded}"
 
 def is_similar(official_title, owned_string, threshold=0.8):
     off = str(official_title).lower().strip()
