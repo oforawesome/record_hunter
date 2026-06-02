@@ -20,6 +20,22 @@ DISCOGS_TOKEN = get_secret("DISCOGS_TOKEN")
 st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵", layout="wide")
 
 # --- 2. HELPER FUNCTIONS ---
+
+def trademe_url(artist, album):
+    """Build a TradeMe used vinyl search URL."""
+    query = quote_plus(f"{artist} {album}")
+    return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm/search?condition=used&search_string={query}"
+
+def realgroovy_url(artist, album):
+    """Build a Real Groovy search URL."""
+    query = quote_plus(f"{artist} {album}")
+    return f"https://realgroovy.com/search?q={query}"
+
+def marbecks_url(artist, album):
+    """Build a Marbecks search URL."""
+    query = quote_plus(f"{artist} {album}")
+    return f"https://www.marbecks.co.nz/search/advanced.lsd?section=Vinyl&artist={query}"
+
 def is_similar(official_title, owned_string, threshold=0.8):
     off = str(official_title).lower().strip()
     own = str(owned_string).lower().strip()
@@ -90,21 +106,34 @@ if artist_input:
         with col2:
             st.header("❌ Missing (Studio Only)")
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
-            for m in sorted_missing:
+            
+            # Added enumerate() to safely handle unique widget keys
+            for idx, m in enumerate(sorted_missing):
                 album_label = f"{canonical_artist} - {m['title']} ({m['year']})"
-                sub_col1, sub_col2, sub_col3 = st.columns([0.7, 0.15, 0.15])
+                
+                # Resized grid to accommodate 3 store shortcuts + 1 add button
+                sub_col1, sub_col2, sub_col3, sub_col4, sub_col5 = st.columns([0.4, 0.15, 0.15, 0.15, 0.15])
 
                 with sub_col1:
                     st.write(f"**{m['title']}** ({m['year']})")
 
                 with sub_col2:
-                    url = trademe_url(canonical_artist, m['title'])
-                    st.link_button("🔍 TM", url)
+                    tm_link = trademe_url(canonical_artist, m['title'])
+                    st.link_button("🔍 TM", tm_link)
 
                 with sub_col3:
-                    if st.button("➕", key=album_label):
+                    rg_link = realgroovy_url(canonical_artist, m['title'])
+                    st.link_button("🎵 RG", rg_link)
+
+                with sub_col4:
+                    mb_link = marbecks_url(canonical_artist, m['title'])
+                    st.link_button("💿 MB", mb_link)
+
+                with sub_col5:
+                    # Appended '_idx' to guarantee Streamlit never sees a duplicate key
+                    if st.button("➕", key=f"{album_label}_{idx}"):
                         with st.spinner("Adding to Google Tasks..."):
-                            if add_record_to_tasks(album_label, notes=url):
+                            if add_record_to_tasks(album_label, notes=tm_link):
                                 st.toast(f"Added {m['title']}!", icon="✅")
                             else:
                                 st.error("Failed to add.")
