@@ -31,14 +31,21 @@ def realgroovy_url(artist, album):
     query = quote_plus(f"{artist} {album}")
     return f"https://realgroovy.com/search?q={query}"
 
+from urllib.parse import quote_plus
+
 def marbecks_url(artist, album):
-    """Build a functional Marbecks keyword search URL."""
-    # Combine artist and album into a single string, stripping out any brackets/artifacts
-    clean_query = f"{artist} {album}".strip()
-    # URL encode the spaces and special characters
+    """
+    Builds a reliable Marbecks URL by stripping out the hardcoded page index
+    to bypass their server-side session caching bug.
+    """
+    # Combine the artist and album name perfectly
+    clean_query = f"{artist.strip()} {album.strip()}"
+    
+    # URL encode spaces to '+' signs and handle special characters safely
     query_encoded = quote_plus(clean_query)
-    # Target their global keyword lookup endpoint
-    return f"https://www.marbecks.co.nz/search/keyword/1/{query_encoded}"
+    
+    # Notice the omitted '/1/' path
+    return f"https://www.marbecks.co.nz/search/keyword/{query_encoded}"
 
 def is_similar(official_title, owned_string, threshold=0.8):
     off = str(official_title).lower().strip()
