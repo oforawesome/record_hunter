@@ -75,11 +75,8 @@ def is_similar(official_title, owned_string, threshold=0.8):
 
 # --- 5. UI ---
 st.title("🎵 Record Hunter")
-st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
 
-st.write("DEBUG: starting collection load...")
 my_collection = load_collection()
-st.write(f"DEBUG: load complete, {len(my_collection)} records")
 
 if not my_collection:
     st.warning("Could not load your Discogs collection. Check your DISCOGS_TOKEN.")
