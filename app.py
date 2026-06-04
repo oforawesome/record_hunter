@@ -54,6 +54,7 @@ def discogs_marketplace_url(artist, album):
     params = (
         f"q={quote_plus(strict_query)}"
         "&format=Vinyl"
+        "&format_desc=Album"
         "&sort=price%2Casc"
     )
     return base_url + params
