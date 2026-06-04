@@ -37,4 +37,4 @@ def load_collection():
             })
         return collection_list
     except Exception as e:
-        st.error(f"Failed to
+        st.error(f"Failed to load Discogs collection: {e}")
