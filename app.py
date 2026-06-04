@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import json
 import discogs_client
 from urllib.parse import quote_plus
 from dotenv import load_dotenv
@@ -22,13 +21,7 @@ DISCOGS_TOKEN = get_secret("DISCOGS_TOKEN")
 st.set_page_config(page_title="Record Hunter NZ", page_icon="🎵", layout="wide")
 
 # --- 2. HELPER FUNCTIONS ---
-def is_similar(official_title, owned_string, threshold=0.8):
-    off = str(official_title).lower().strip()
-    own = str(owned_string).lower().strip()
-    return (off in own) or (SequenceMatcher(None, off, own).ratio() > threshold)
-
 def fetch_discogs_collection():
-    """Pull the latest collection from Discogs and return as a list."""
     client = discogs_client.Client('RecordHunter/1.0', user_token=DISCOGS_TOKEN)
     user = client.identity()
     collection = user.collection_folders[0].releases
@@ -43,9 +36,32 @@ def fetch_discogs_collection():
     return collection_list
 
 def trademe_url(artist, album):
-    """Build a TradeMe used vinyl search URL for an artist + album."""
     query = quote_plus(f"{artist} {album}")
     return f"https://www.trademe.co.nz/a/marketplace/music-instruments/vinyl/lps-33-rpm/search?condition=used&search_string={query}"
+
+def realgroovy_url(artist, album):
+    query = quote_plus(f"{artist} {album}")
+    return f"https://realgroovy.com/search?q={query}"
+
+def marbecks_url(artist, album):
+    clean_query = f"{artist.strip()} {album.strip()}"
+    query_encoded = quote_plus(clean_query)
+    return f"https://www.marbecks.co.nz/search/keyword/{query_encoded}"
+
+def discogs_marketplace_url(artist, album):
+    strict_query = f'"{artist.strip()}" "{album.strip()}"'
+    base_url = "https://www.discogs.com/sell/list?"
+    params = (
+        f"q={quote_plus(strict_query)}"
+        "&format=Vinyl"
+        "&sort=price%2Casc"
+    )
+    return base_url + params
+
+def is_similar(official_title, owned_string, threshold=0.8):
+    off = str(official_title).lower().strip()
+    own = str(owned_string).lower().strip()
+    return (off in own) or (SequenceMatcher(None, off, own).ratio() > threshold)
 
 # --- 3. DATA LOADING ---
 if "my_collection" not in st.session_state:
@@ -59,7 +75,6 @@ if "my_collection" not in st.session_state:
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
 
-# --- SYNC BUTTON ---
 col_title, col_sync = st.columns([0.85, 0.15])
 with col_title:
     st.markdown("Auditing your Discogs collection against the 'Gold Standard'.")
@@ -113,21 +128,34 @@ if artist_input:
         with col2:
             st.header("❌ Missing (Studio Only)")
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
-            for m in sorted_missing:
+
+            for idx, m in enumerate(sorted_missing):
                 album_label = f"{canonical_artist} - {m['title']} ({m['year']})"
-                sub_col1, sub_col2, sub_col3 = st.columns([0.7, 0.15, 0.15])
+                sub_col1, sub_col2, sub_col3, sub_col4, sub_col5, sub_col6 = st.columns([0.35, 0.13, 0.13, 0.13, 0.13, 0.13])
 
                 with sub_col1:
                     st.write(f"**{m['title']}** ({m['year']})")
 
                 with sub_col2:
-                    url = trademe_url(canonical_artist, m['title'])
-                    st.link_button("🔍 TM", url)
+                    tm_link = trademe_url(canonical_artist, m['title'])
+                    st.link_button("🔍 TM", tm_link)
 
                 with sub_col3:
-                    if st.button("➕", key=album_label):
+                    rg_link = realgroovy_url(canonical_artist, m['title'])
+                    st.link_button("🎵 RG", rg_link)
+
+                with sub_col4:
+                    mb_link = marbecks_url(canonical_artist, m['title'])
+                    st.link_button("💿 MB", mb_link)
+
+                with sub_col5:
+                    dc_link = discogs_marketplace_url(canonical_artist, m['title'])
+                    st.link_button("🏷️ DC", dc_link)
+
+                with sub_col6:
+                    if st.button("➕", key=f"{album_label}_{idx}"):
                         with st.spinner("Adding to Google Tasks..."):
-                            if add_record_to_tasks(album_label, notes=url):
+                            if add_record_to_tasks(album_label, notes=tm_link):
                                 st.toast(f"Added {m['title']}!", icon="✅")
                             else:
                                 st.error("Failed to add.")
