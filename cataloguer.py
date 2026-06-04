@@ -8,7 +8,6 @@ def _name_match(input_name, result_name):
     """Check if the result name closely matches what the user typed."""
     a = input_name.lower().strip()
     b = result_name.lower().strip()
-    # Exact match or very high similarity
     return a == b or SequenceMatcher(None, a, b).ratio() > 0.85
 
 def get_studio_albums(artist_name):
@@ -16,15 +15,15 @@ def get_studio_albums(artist_name):
         # 1. Search for the artist
         search = musicbrainzngs.search_artists(artist=artist_name)
         if not search['artist-list']:
-            return []
+            return [], artist_name
 
         # 2. Find the best matching artist by name (not just first result)
         artist_id = None
-        canonical_name = artist_name  # fallback
+        canonical_name = artist_name
         for artist in search['artist-list']:
             if _name_match(artist_name, artist.get('name', '')):
                 artist_id = artist['id']
-                canonical_name = artist['name']  # use MusicBrainz casing
+                canonical_name = artist['name']
                 break
 
         if not artist_id:
@@ -36,13 +35,15 @@ def get_studio_albums(artist_name):
 
         albums = []
         for g in groups:
-            # Filter for Studio Albums ONLY
             p_type = g.get('primary-type', '')
             s_types = g.get('secondary-type-list', [])
-            if p_type == 'Album' and not s_types:
+            title = g.get('title', '').strip()
+            year = g.get('first-release-date', '')[:4] or 'N/A'
+
+            if p_type == 'Album' and not s_types and title:
                 albums.append({
-                    "title": g['title'],
-                    "year": g.get('first-release-date', 'N/A')[:4]
+                    "title": title,
+                    "year": year
                 })
 
         return albums, canonical_name

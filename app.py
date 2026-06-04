@@ -91,7 +91,7 @@ artist_input = st.text_input("Enter Artist Name (e.g., Bruce Springsteen, The Cu
 
 if artist_input:
     with st.spinner(f'Searching MusicBrainz for {artist_input}...'):
-        official_studio_list = get_studio_albums(artist_input)
+        official_studio_list, canonical_name = get_studio_albums(artist_input)
 
     my_artist_records = [r for r in my_collection if artist_input.lower() in r['artist'].lower()]
 
