@@ -120,14 +120,14 @@ if artist_input:
         col1, col2 = st.columns(2)
 
         with col1:
-            st.header("✅ Owned (Full Collection)")
+            st.header("✅ Owned")
             sorted_owned = sorted(my_artist_records, key=lambda x: x.get('year', 0))
             for a in sorted_owned:
                 y = a.get('year', '')
                 st.write(f"- **{a['title']}** ({y})")
 
         with col2:
-            st.header("❌ Missing (Studio Only)")
+            st.header("❌ Missing")
             sorted_missing = sorted(missing_studio, key=lambda x: str(x.get('year', '9999')))
 
             for idx, m in enumerate(sorted_missing):
