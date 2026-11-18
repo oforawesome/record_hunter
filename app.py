@@ -101,8 +101,6 @@ if "my_collection" not in st.session_state:
             st.error(f"Failed to load Discogs collection: {e}")
             st.session_state.my_collection = []
 
-if "volumio_collection" not in st.session_state:
-    st.session_state.volumio_collection = load_volumio_collection()
 
 # --- 4. USER INTERFACE ---
 st.title("🎵 Record Hunter")
@@ -124,7 +122,7 @@ if not st.session_state.my_collection:
     st.stop()
 
 my_collection = st.session_state.my_collection
-volumio_collection = st.session_state.volumio_collection
+volumio_collection = load_volumio_collection()
 
 st.caption(f"✅ {len(my_collection)} records loaded from Discogs.")
 
