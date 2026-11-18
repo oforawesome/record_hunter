@@ -1,824 +1,2540 @@
 [
   {
+    "artist": "4 Non Blondes",
+    "album": "Bigger, Better, Faster, More!",
+    "uri": "music-library/USB/M2_512GB/Music/4 Non Blondes/4 Non Blondes - Bigger, Better, Faster, More! (2021)",
+    "track_count": 11
+  },
+  {
+    "artist": "ABBA",
+    "album": "Gold Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/ABBA/Greatest Hits - 40th Anniversary Edition/Disc 1",
+    "track_count": 20
+  },
+  {
+    "artist": "ABBA",
+    "album": "Gold Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/ABBA/Greatest Hits - 40th Anniversary Edition/Disc 2",
+    "track_count": 21
+  },
+  {
+    "artist": "ABBA",
+    "album": "Gold Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/ABBA/Greatest Hits - 40th Anniversary Edition/Disc 3",
+    "track_count": 20
+  },
+  {
     "artist": "AC/DC",
-    "album": "Are You Ready? The Very Best Of",
-    "uri": "music-library/USB/Music/ACDC/Are You Ready The Very Best Of ACDC (2016) [FLAC] vtwin88cube",
-    "track_count": 34
+    "album": "High Voltage",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1975 - High Voltage (Australian Version)",
+    "track_count": 9
+  },
+  {
+    "artist": "AC/DC",
+    "album": "T.N.T.",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1975 - T.N.T",
+    "track_count": 10
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Dirty Deeds Done Dirt Cheap",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1976 - Dirty Deeds Done Dirt Cheap",
+    "track_count": 10
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Let There Be Rock",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1977 - Let There Be Rock",
+    "track_count": 9
+  },
+  {
+    "artist": "AC/DC",
+    "album": "If You Want Blood You've Got It",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1978 - If You Want Blood You've Got It",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Powerage",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1978 - Powerage",
+    "track_count": 10
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Highway To Hell",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1979 - Highway To Hell",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Back In Black",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1980 - Back In Black",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "For Those About To Rock (We Salute You)",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1981 - For Those About To Rock( We Salute You)",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Flick Of The Switch",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1983 - Flick Of The Switch",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Fly On The Wall",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1985 - Fly On The Wall",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Who Made Who (Soundtrack)",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1986 - Who Made Who (Soundtrack)",
+    "track_count": 10
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Blow Up Your Video",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1988 - Blow Up Your Video",
+    "track_count": 11
+  },
+  {
+    "artist": "AC/DC",
+    "album": "The Razors Edge",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1990 - The Razors Edge",
+    "track_count": 13
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Live",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1992 - Live (2CD)",
+    "track_count": 24
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Ballbreaker",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1995 - Ballbreaker",
+    "track_count": 12
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Let There Be Rock: The Movie Live In Paris",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1997 - Let There Be Rock_The Movie Live In Paris (Bonfire)",
+    "track_count": 15
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Live From The Atlantic Studios",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/1997 - Live From The Atlantic Studios (Bonfire)",
+    "track_count": 9
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Stiff Upper Lip",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/2000 - Stiff Upper Lip",
+    "track_count": 19
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Black Ice",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/2008 - Black Ice",
+    "track_count": 16
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Greatest Hell\u0092s Hits",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/2009 - Greatest Hell's Hits (2CD)",
+    "track_count": 38
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Rock Or Bust",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/2014 - Rock Or Bust",
+    "track_count": 12
+  },
+  {
+    "artist": "AC/DC",
+    "album": "Power Up",
+    "uri": "music-library/USB/M2_512GB/Music/ACDC/2020 - Power Up",
+    "track_count": 13
+  },
+  {
+    "artist": "Adele",
+    "album": "19",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2008) - Adele - 19 [16Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Adele",
+    "album": "Cold Shoulder",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2008) - Adele - Cold Shoulder [16Bit-44.1kHz]",
+    "track_count": 4
+  },
+  {
+    "artist": "Adele",
+    "album": "Hometown Glory",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2008) - Adele - Hometown Glory [16Bit-44.1kHz]",
+    "track_count": 3
+  },
+  {
+    "artist": "Adele",
+    "album": "21",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2011) - Adele - 21 [16Bit-44.1kHz]",
+    "track_count": 11
+  },
+  {
+    "artist": "Adele",
+    "album": "Skyfall",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2012) - Adele - Skyfall (Full Length) [24Bit-96kHz]",
+    "track_count": 1
+  },
+  {
+    "artist": "Adele",
+    "album": "25",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2015) - Adele - 25 [16Bit-44.1kHz]",
+    "track_count": 11
+  },
+  {
+    "artist": "Adele",
+    "album": "Send My Love (To Your New Lover)",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2016) - Adele - Send My Love (To Your New Lover) [16Bit-44.1kHz]",
+    "track_count": 1
+  },
+  {
+    "artist": "Adele",
+    "album": "Water Under the Bridge",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2016) - Adele - Water Under the Bridge [16Bit-44.1kHz]",
+    "track_count": 1
+  },
+  {
+    "artist": "Adele",
+    "album": "30",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2021) - Adele - 30 [24Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Adele",
+    "album": "Easy On Me",
+    "uri": "music-library/USB/M2_512GB/Music/Adele/(2021) - Adele - Easy On Me [24Bit-44.1kHz]",
+    "track_count": 1
   },
   {
     "artist": "Aerosmith",
     "album": "Big Ones",
-    "uri": "music-library/USB/Music/Aerosmith/Big Ones (1994)",
+    "uri": "music-library/USB/M2_512GB/Music/Aerosmith/Big Ones (1994)",
     "track_count": 16
+  },
+  {
+    "artist": "Audioslave",
+    "album": "Audioslave",
+    "uri": "music-library/USB/M2_512GB/Music/Audioslave/Audioslave (2002)",
+    "track_count": 14
+  },
+  {
+    "artist": "Audioslave",
+    "album": "Out of Exile",
+    "uri": "music-library/USB/M2_512GB/Music/Audioslave/Out of Exile (2005)",
+    "track_count": 12
+  },
+  {
+    "artist": "Audioslave",
+    "album": "Out of Exile (Live from Sessions@AOL)",
+    "uri": "music-library/USB/M2_512GB/Music/Audioslave/Out Of Exile (Live From Sessions@AOL) (2005)",
+    "track_count": 5
+  },
+  {
+    "artist": "Audioslave",
+    "album": "Revelations",
+    "uri": "music-library/USB/M2_512GB/Music/Audioslave/Revelations (2007)",
+    "track_count": 12
   },
   {
     "artist": "Beastie Boys",
     "album": "Licensed to Ill",
-    "uri": "music-library/USB/Music/Beastie Boys\uf028/Licensed to Ill (1986)",
+    "uri": "music-library/USB/M2_512GB/Music/Beastie Boys\uf028/Licensed to Ill (1986)",
     "track_count": 13
   },
   {
     "artist": "Black Sabbath",
-    "album": "Paranoid (2016 Super Deluxe Edition) (1)",
-    "uri": "music-library/USB/Music/Black Sabbath/Paranoid (2016)",
+    "album": "Paranoid",
+    "uri": "music-library/USB/M2_512GB/Music/Black Sabbath/Paranoid (2016)",
     "track_count": 8
+  },
+  {
+    "artist": "Blink-182",
+    "album": "Enema Of The State",
+    "uri": "music-library/USB/M2_512GB/Music/Blink-182/Blink-182 - Enema Of The State [24 bit FLAC] vinyl",
+    "track_count": 12
+  },
+  {
+    "artist": "Burning Spear",
+    "album": "Marcus Garvey / Garvey's Ghost",
+    "uri": "music-library/USB/M2_512GB/Music/Burning Spear/Marcus Garvey - Garvey's Ghost",
+    "track_count": 20
   },
   {
     "artist": "Burning Spear",
     "album": "The Best of Burning Spear \u2014 Marcus Garvey",
-    "uri": "music-library/USB/Music/Burning Spear/Marcus Garvey - The Best Of",
+    "uri": "music-library/USB/M2_512GB/Music/Burning Spear/Marcus Garvey - The Best Of",
     "track_count": 20
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Matthew & Son",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1967) Cat Stevens - Matthew & Son [16Bit-44.1kHz]",
+    "track_count": 22
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "New Masters",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1967) Cat Stevens - New Masters [16Bit-44.1kHz]",
+    "track_count": 23
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Mona Bone Jakon",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1970) Cat Stevens - Mona Bone Jakon (Remastered 2020) [16Bit-44.1kHz]",
+    "track_count": 11
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Tea For The Tillerman",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1970) Cat Stevens - Tea For The Tillerman (Remastered 2020) [16Bit-44.1kHz]",
+    "track_count": 11
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Teaser And The Firecat",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1971) Cat Stevens - Teaser And The Firecat (Remastered 2021) [16Bit-44.1kHz]",
+    "track_count": 10
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Catch Bull At Four",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1972) Cat Stevens - Catch Bull At Four [16Bit-44.1kHz]",
+    "track_count": 10
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Foreigner",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1973) Cat Stevens - Foreigner [16Bit-44.1kHz]",
+    "track_count": 5
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Buddha And The Chocolate Box",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1974) Cat Stevens - Buddha And The Chocolate Box [16Bit-44.1kHz]",
+    "track_count": 9
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Numbers",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1975) Cat Stevens - Numbers [16Bit-44.1kHz]",
+    "track_count": 9
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Izitso",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1977) Cat Stevens - Izitso [16Bit-44.1kHz]",
+    "track_count": 10
+  },
+  {
+    "artist": "Cat Stevens",
+    "album": "Back to Earth",
+    "uri": "music-library/USB/M2_512GB/Music/Cat Stevens/(1978) Cat Stevens - Back to Earth [16Bit-44.1kHz]",
+    "track_count": 10
   },
   {
     "artist": "Coldplay",
     "album": "A Rush Of Blood To The Head",
-    "uri": "music-library/USB/Music/Coldplay/A Rush Of Blood To The Head (2002)",
+    "uri": "music-library/USB/M2_512GB/Music/Coldplay/A Rush Of Blood To The Head (2002)",
     "track_count": 11
   },
   {
     "artist": "Coldplay",
+    "album": "Music Of The Spheres",
+    "uri": "music-library/USB/M2_512GB/Music/Coldplay/Music Of The Spheres (2021)",
+    "track_count": 13
+  },
+  {
+    "artist": "Coldplay",
     "album": "Parachutes",
-    "uri": "music-library/USB/Music/Coldplay/Parachutes",
+    "uri": "music-library/USB/M2_512GB/Music/Coldplay/Parachutes",
     "track_count": 10
   },
   {
     "artist": "Coldplay",
     "album": "Viva la Vida or Death and All His Friends",
-    "uri": "music-library/USB/Music/Coldplay/Viva La Vida Or Death And All His Friends",
+    "uri": "music-library/USB/M2_512GB/Music/Coldplay/Viva La Vida Or Death And All His Friends",
     "track_count": 10
   },
   {
     "artist": "Coldplay",
     "album": "X&Y",
-    "uri": "music-library/USB/Music/Coldplay/X&Y (2005)",
+    "uri": "music-library/USB/M2_512GB/Music/Coldplay/X&Y (2005)",
+    "track_count": 13
+  },
+  {
+    "artist": "Collective Soul",
+    "album": "7even Year Itch: Greatest Hits 1994\u20132001",
+    "uri": "music-library/USB/M2_512GB/Music/Collective Soul/7even Year Itch Greatest Hits 1994-2001",
+    "track_count": 13
+  },
+  {
+    "artist": "Crash Test Dummies",
+    "album": "God Shuffled His Feet",
+    "uri": "music-library/USB/M2_512GB/Music/Crash Test Dummies/God Shuffled his Feet (1993)",
+    "track_count": 12
+  },
+  {
+    "artist": "Daft Punk",
+    "album": "Alive 2007",
+    "uri": "music-library/USB/M2_512GB/Music/Daft Punk/Alive 2007",
+    "track_count": 13
+  },
+  {
+    "artist": "Daft Punk, Romanthony",
+    "album": "Discovery",
+    "uri": "music-library/USB/M2_512GB/Music/Daft Punk/Daft Punk - Discovery (2001) [FLAC] 88",
+    "track_count": 15
+  },
+  {
+    "artist": "Daft Punk",
+    "album": "Homework",
+    "uri": "music-library/USB/M2_512GB/Music/Daft Punk/Daft Punk - Homework (1997) [FLAC] vtwin88cube",
+    "track_count": 17
+  },
+  {
+    "artist": "Daft Punk",
+    "album": "Human After All",
+    "uri": "music-library/USB/M2_512GB/Music/Daft Punk/Daft Punk - Human After All (Deluxe Edition) (2005) [FLAC] 88/CD 1 - Human After All",
+    "track_count": 11
+  },
+  {
+    "artist": "Daft Punk",
+    "album": "Random Access Memories",
+    "uri": "music-library/USB/M2_512GB/Music/Daft Punk/Random Access Memories/CD 1",
     "track_count": 13
   },
   {
     "artist": "David Bowie",
     "album": "Aladdin Sane",
-    "uri": "music-library/USB/Music/David Bowie/Aladdin Sane",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Aladdin Sane",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "Black Tie White Noise",
-    "uri": "music-library/USB/Music/David Bowie/Black Tie White Noise",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Black Tie White Noise",
     "track_count": 14
   },
   {
     "artist": "David Bowie",
     "album": "Blackstar",
-    "uri": "music-library/USB/Music/David Bowie/Blackstar",
-    "track_count": 8
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Blackstar",
+    "track_count": 7
   },
   {
     "artist": "David Bowie",
     "album": "Changes",
-    "uri": "music-library/USB/Music/David Bowie/ChangesBowie",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/ChangesBowie",
     "track_count": 18
   },
   {
     "artist": "David Bowie",
     "album": "David Bowie",
-    "uri": "music-library/USB/Music/David Bowie/David Bowie",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/David Bowie",
     "track_count": 14
   },
   {
     "artist": "David Bowie",
     "album": "Diamond Dogs",
-    "uri": "music-library/USB/Music/David Bowie/Diamond Dogs",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Diamond Dogs",
     "track_count": 11
   },
   {
     "artist": "David Bowie",
     "album": "Earthling",
-    "uri": "music-library/USB/Music/David Bowie/Earthling",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Earthling",
     "track_count": 9
   },
   {
     "artist": "David Bowie",
     "album": "Do Anything You Say",
-    "uri": "music-library/USB/Music/David Bowie/For The Collector Early David Bowie",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/For The Collector Early David Bowie",
     "track_count": 4
   },
   {
     "artist": "David Bowie",
     "album": "Heathen",
-    "uri": "music-library/USB/Music/David Bowie/Heathen",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Heathen",
     "track_count": 12
   },
   {
     "artist": "David Bowie",
     "album": "\u201cHeroes\u201d",
-    "uri": "music-library/USB/Music/David Bowie/Heroes",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Heroes",
     "track_count": 12
   },
   {
     "artist": "David Bowie",
     "album": "\u2018hours\u2026\u2019",
-    "uri": "music-library/USB/Music/David Bowie/Hours",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Hours",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "Hunky Dory",
-    "uri": "music-library/USB/Music/David Bowie/Hunky Dory",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Hunky Dory",
     "track_count": 11
   },
   {
     "artist": "David Bowie",
     "album": "Let\u2019s Dance",
-    "uri": "music-library/USB/Music/David Bowie/Let's Dance",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Let's Dance",
     "track_count": 8
   },
   {
     "artist": "David Bowie",
     "album": "Lodger",
-    "uri": "music-library/USB/Music/David Bowie/Lodger",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Lodger",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "Low",
-    "uri": "music-library/USB/Music/David Bowie/Low",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Low",
     "track_count": 14
   },
   {
     "artist": "David Bowie",
     "album": "Never Let Me Down",
-    "uri": "music-library/USB/Music/David Bowie/Never Let Me Down",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Never Let Me Down",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "1.Outside: Version 2",
-    "uri": "music-library/USB/Music/David Bowie/Outside",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Outside",
     "track_count": 19
   },
   {
     "artist": "David Bowie",
     "album": "Pin Ups",
-    "uri": "music-library/USB/Music/David Bowie/Pin Ups",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Pin Ups",
     "track_count": 12
   },
   {
     "artist": "David Bowie",
     "album": "Ragazzo solo, ragazza sola (versione italiana di \u201cSpace Oddity\u201d)",
-    "uri": "music-library/USB/Music/David Bowie/Ragazzo Solo, Ragazza Sola",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Ragazzo Solo, Ragazza Sola",
     "track_count": 2
   },
   {
     "artist": "David Bowie",
     "album": "Reality",
-    "uri": "music-library/USB/Music/David Bowie/Reality",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Reality",
     "track_count": 11
   },
   {
     "artist": "David Bowie",
     "album": "Scary Monsters\u2026 and Super Creeps",
-    "uri": "music-library/USB/Music/David Bowie/Scary Monsters",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Scary Monsters",
     "track_count": 14
   },
   {
     "artist": "David Bowie",
     "album": "Space Oddity",
-    "uri": "music-library/USB/Music/David Bowie/Space Oddity",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Space Oddity",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "Station to Station",
-    "uri": "music-library/USB/Music/David Bowie/Station To Station",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Station To Station",
     "track_count": 6
   },
   {
     "artist": "David Bowie",
     "album": "The Buddha of Suburbia",
-    "uri": "music-library/USB/Music/David Bowie/The Buddha Of Suburbia",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/The Buddha Of Suburbia",
     "track_count": 10
   },
   {
     "artist": "David Bowie",
     "album": "The Man Who Sold the World",
-    "uri": "music-library/USB/Music/David Bowie/The Man Who Sold The World",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/The Man Who Sold The World",
     "track_count": 9
   },
   {
     "artist": "David Bowie",
     "album": "The Next Day",
-    "uri": "music-library/USB/Music/David Bowie/The Next Day",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/The Next Day",
     "track_count": 17
   },
   {
     "artist": "David Bowie",
     "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
-    "uri": "music-library/USB/Music/David Bowie/The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
     "track_count": 11
   },
   {
     "artist": "David Bowie",
     "album": "The Singles Collection",
-    "uri": "music-library/USB/Music/David Bowie/The Singles Collection",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/The Singles Collection",
     "track_count": 37
   },
   {
     "artist": "David Bowie",
     "album": "Tonight",
-    "uri": "music-library/USB/Music/David Bowie/Tonight",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Tonight",
     "track_count": 9
   },
   {
     "artist": "David Bowie",
     "album": "Young Americans",
-    "uri": "music-library/USB/Music/David Bowie/Young Americans",
+    "uri": "music-library/USB/M2_512GB/Music/David Bowie/Young Americans",
     "track_count": 8
+  },
+  {
+    "artist": "Depeche Mode",
+    "album": "Best Of Depeche Mode, Vol. 1",
+    "uri": "music-library/USB/M2_512GB/Music/Depeche Mode/Depeche Mode - Best Of (2006)",
+    "track_count": 18
   },
   {
     "artist": "Dire Straits",
     "album": "Brothers in Arms",
-    "uri": "music-library/USB/Music/Dire Straits/Brothers In Arms",
+    "uri": "music-library/USB/M2_512GB/Music/Dire Straits/Brothers In Arms",
     "track_count": 9
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "+",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2012) +",
+    "track_count": 16
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "5",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2014) 5/Disc 1",
+    "track_count": 5
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "5",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2014) 5/Disc 2",
+    "track_count": 8
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "5",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2014) 5/Disc 3",
+    "track_count": 5
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "5",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2014) 5/Disc 4",
+    "track_count": 6
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "5",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2014) 5/Disc 5",
+    "track_count": 8
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "x",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2015) x\uf028",
+    "track_count": 23
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "\u00f7",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2017)  \u00f7",
+    "track_count": 12
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "=",
+    "uri": "music-library/USB/M2_512GB/Music/Ed Sheeran/(2021) =",
+    "track_count": 14
   },
   {
     "artist": "Elvis Costello & The Attractions",
     "album": "Armed Forces",
-    "uri": "music-library/USB/Music/Elvis Costello/Armed Forces",
+    "uri": "music-library/USB/M2_512GB/Music/Elvis Costello/Armed Forces",
     "track_count": 15
   },
   {
     "artist": "Eminem",
     "album": "The Slim Shady LP",
-    "uri": "music-library/USB/Music/Eminem/1999 - The Slim Shady LP",
+    "uri": "music-library/USB/M2_512GB/Music/Eminem/1999 - The Slim Shady LP",
     "track_count": 21
   },
   {
     "artist": "Eminem",
     "album": "The Marshall Mathers LP",
-    "uri": "music-library/USB/Music/Eminem/2000 - The Marshall Mathers LP",
+    "uri": "music-library/USB/M2_512GB/Music/Eminem/2000 - The Marshall Mathers LP",
     "track_count": 19
   },
   {
     "artist": "Eminem",
     "album": "The Eminem Show",
-    "uri": "music-library/USB/Music/Eminem/2002 - The Eminem Show",
+    "uri": "music-library/USB/M2_512GB/Music/Eminem/2002 - The Eminem Show",
     "track_count": 21
+  },
+  {
+    "artist": "Faith No More",
+    "album": "Alternative Collection",
+    "uri": "music-library/USB/M2_512GB/Music/Faith No More/Faith No More - Alternative Collection_Greatest Hits (2001 FLAC) 88",
+    "track_count": 20
   },
   {
     "artist": "Foo Fighters",
     "album": "Concrete and Gold",
-    "uri": "music-library/USB/Music/Foo Fighters/Concrete And Gold",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Concrete And Gold",
     "track_count": 11
   },
   {
     "artist": "Foo Fighters",
     "album": "Hail Satin",
-    "uri": "music-library/USB/Music/Foo Fighters/DeeGees - Hail Satin",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/DeeGees - Hail Satin",
     "track_count": 10
   },
   {
     "artist": "Foo Fighters",
     "album": "Echoes, Silence, Patience & Grace",
-    "uri": "music-library/USB/Music/Foo Fighters/Echoes, Silence, Patience & Grace",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Echoes, Silence, Patience & Grace",
     "track_count": 14
   },
   {
     "artist": "Foo Fighters",
     "album": "Foo Fighters",
-    "uri": "music-library/USB/Music/Foo Fighters/Foo Fighters",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Foo Fighters",
     "track_count": 14
   },
   {
     "artist": "Foo Fighters",
     "album": "Greatest Hits",
-    "uri": "music-library/USB/Music/Foo Fighters/Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Greatest Hits",
     "track_count": 17
   },
   {
     "artist": "Foo Fighters",
     "album": "In Your Honor",
-    "uri": "music-library/USB/Music/Foo Fighters/In Your Honor",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/In Your Honor",
     "track_count": 21
   },
   {
     "artist": "Foo Fighters",
     "album": "Medicine at Midnight",
-    "uri": "music-library/USB/Music/Foo Fighters/Medicine At Midnight",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Medicine At Midnight",
     "track_count": 9
   },
   {
     "artist": "Foo Fighters",
     "album": "Medium Rare",
-    "uri": "music-library/USB/Music/Foo Fighters/Medium Rare",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Medium Rare",
     "track_count": 12
   },
   {
     "artist": "Foo Fighters",
     "album": "One by One",
-    "uri": "music-library/USB/Music/Foo Fighters/One By One",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/One By One",
     "track_count": 12
   },
   {
     "artist": "Foo Fighters",
     "album": "Skin and Bones",
-    "uri": "music-library/USB/Music/Foo Fighters/Skin And Bones",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Skin And Bones",
     "track_count": 15
   },
   {
     "artist": "Foo Fighters",
     "album": "Sonic Highways",
-    "uri": "music-library/USB/Music/Foo Fighters/Sonic Highways",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Sonic Highways",
     "track_count": 8
   },
   {
     "artist": "Foo Fighters",
     "album": "The Colour and the Shape",
-    "uri": "music-library/USB/Music/Foo Fighters/The Colour And The Shape",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/The Colour And The Shape",
     "track_count": 14
   },
   {
     "artist": "Foo Fighters",
     "album": "There Is Nothing Left to Lose",
-    "uri": "music-library/USB/Music/Foo Fighters/There Is Nothing Left To Lose",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/There Is Nothing Left To Lose",
     "track_count": 12
   },
   {
     "artist": "Foo Fighters",
     "album": "Wasting Light",
-    "uri": "music-library/USB/Music/Foo Fighters/Wasting Light",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Wasting Light",
+    "track_count": 12
+  },
+  {
+    "artist": "Foo Fighters",
+    "album": "Your Favorite Toy",
+    "uri": "music-library/USB/M2_512GB/Music/Foo Fighters/Your Favorite Toy (2026)",
+    "track_count": 11
+  },
+  {
+    "artist": "Fugees",
+    "album": "The Score",
+    "uri": "music-library/USB/M2_512GB/Music/Fugees/The Score (1996)",
+    "track_count": 13
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Gorillaz (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2001 - Gorillaz (Deluxe Edition)",
+    "track_count": 20
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Demon Days (Japanese Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2005 - Demon Days (Japanese Edition)",
+    "track_count": 17
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Plastic Beach (Japanese Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2010 - Plastic Beach (Japanese Edition)",
+    "track_count": 18
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Humanz (Japanese Edition) [CD-01]",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2017 - Humanz (Japanese Edition)/CD1",
+    "track_count": 21
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Humanz (Japanese Edition) [CD-02]",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2017 - Humanz (Japanese Edition)/CD2",
+    "track_count": 9
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "The Now Now",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2018 - The Now Now",
+    "track_count": 12
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Song Machine Season One (Japanese Edition) [CD-01]",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2020 - Song Machine Season One, Strange Timez (Japanese Edition)/CD1",
+    "track_count": 12
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Song Machine Season One (Japanese Edition) [CD-02]",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2020 - Song Machine Season One, Strange Timez (Japanese Edition)/CD2",
+    "track_count": 8
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Cracker Island (Japanese Version)",
+    "uri": "music-library/USB/M2_512GB/Music/Gorillaz/2023 - Cracker Island (Japanese Version)",
     "track_count": 12
   },
   {
     "artist": "Green Day",
     "album": "Dookie",
-    "uri": "music-library/USB/Music/Green Day/1994 - Dookie",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/1994 - Dookie",
     "track_count": 14
   },
   {
     "artist": "Green Day",
     "album": "Insomniac",
-    "uri": "music-library/USB/Music/Green Day/1995 - Insomniac",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/1995 - Insomniac",
     "track_count": 15
   },
   {
     "artist": "Green Day",
     "album": "nimrod.",
-    "uri": "music-library/USB/Music/Green Day/1997 - Nimrod",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/1997 - Nimrod",
     "track_count": 19
   },
   {
     "artist": "Green Day",
-    "album": "Warning",
-    "uri": "music-library/USB/Music/Green Day/2000 - Warning",
+    "album": "Warning:",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2000 - Warning",
     "track_count": 13
   },
   {
     "artist": "Green Day",
     "album": "American Idiot",
-    "uri": "music-library/USB/Music/Green Day/2004 - American Idiot",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2004 - American Idiot",
     "track_count": 14
   },
   {
     "artist": "Green Day",
     "album": "Bullet In A Bible",
-    "uri": "music-library/USB/Music/Green Day/2005 - Bullet In A Bible (Live)",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2005 - Bullet In A Bible (Live)",
     "track_count": 15
   },
   {
     "artist": "U2 And Green Day",
     "album": "The Saints Are Coming",
-    "uri": "music-library/USB/Music/Green Day/2006 - U2 And Green Day - The Saints Are Coming (Single)",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2006 - U2 And Green Day - The Saints Are Coming (Single)",
     "track_count": 3
   },
   {
     "artist": "Green Day",
     "album": "21st Century Breakdown",
-    "uri": "music-library/USB/Music/Green Day/2009 - 21st Century Breakdown",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2009 - 21st Century Breakdown",
     "track_count": 18
   },
   {
     "artist": "Green Day",
     "album": "\u00a1Dos!",
-    "uri": "music-library/USB/Music/Green Day/2012 - Dos!",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2012 - Dos!",
     "track_count": 14
   },
   {
     "artist": "Green Day",
     "album": "\u00a1Tr\u00e9!",
-    "uri": "music-library/USB/Music/Green Day/2012 - Tr\u00e9!",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2012 - Tr\u00e9!",
     "track_count": 13
   },
   {
     "artist": "Green Day",
     "album": "\u00a1Uno!",
-    "uri": "music-library/USB/Music/Green Day/2012 - Uno!",
+    "uri": "music-library/USB/M2_512GB/Music/Green Day/2012 - Uno!",
     "track_count": 13
   },
   {
     "artist": "Guns N' Roses",
     "album": "Appetite For Destruction",
-    "uri": "music-library/USB/Music/Guns N' Roses/1987 - Appetite For Destruction",
+    "uri": "music-library/USB/M2_512GB/Music/Guns N' Roses/1987 - Appetite For Destruction",
     "track_count": 12
   },
   {
     "artist": "Guns N' Roses",
     "album": "Use Your Illusion I",
-    "uri": "music-library/USB/Music/Guns N' Roses/1991 - Use Your Illusion I",
+    "uri": "music-library/USB/M2_512GB/Music/Guns N' Roses/1991 - Use Your Illusion I",
     "track_count": 16
   },
   {
     "artist": "Guns N' Roses",
     "album": "Use Your Illusion II",
-    "uri": "music-library/USB/Music/Guns N' Roses/1991 - Use Your Illusion II",
+    "uri": "music-library/USB/M2_512GB/Music/Guns N' Roses/1991 - Use Your Illusion II",
     "track_count": 14
   },
   {
     "artist": "Guns N' Roses",
     "album": "Chinese Democracy",
-    "uri": "music-library/USB/Music/Guns N' Roses/2008 - Chinese Democracy",
+    "uri": "music-library/USB/M2_512GB/Music/Guns N' Roses/2008 - Chinese Democracy",
     "track_count": 14
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Cut",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Cut 1992",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Cut 1992",
     "track_count": 11
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Demon Flower",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Demon Flower 1994",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Demon Flower 1994",
     "track_count": 12
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Fate",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Fate 1988",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Fate 1988",
     "track_count": 13
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Ghost Nation",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Ghost Nation 1989",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Ghost Nation 1989",
     "track_count": 10
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Juggernaut",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Juggernaut 1998",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Juggernaut 1998",
     "track_count": 13
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Natural Selection",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Natural Selection 2003",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Natural Selection 2003",
     "track_count": 15
   },
   {
     "artist": "Hunters & Collectors",
     "album": "The Fireman's Curse",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - The Fireman's Curse 1983",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - The Fireman's Curse 1983",
     "track_count": 10
   },
   {
     "artist": "Hunters & Collectors",
     "album": "The Jaws Of Life",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - The Jaws of Life 1984",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - The Jaws of Life 1984",
     "track_count": 15
   },
   {
     "artist": "Hunters & Collectors",
     "album": "Under One Roof",
-    "uri": "music-library/USB/Music/Hunters and Collectors/Hunters and Collectors - Under One Roof (live) 1998",
+    "uri": "music-library/USB/M2_512GB/Music/Hunters and Collectors/Hunters and Collectors - Under One Roof (live) 1998",
     "track_count": 17
   },
   {
     "artist": "Imagine Dragons",
     "album": "Evolve",
-    "uri": "music-library/USB/Music/Imagine Dragons/Evolve (2017)",
+    "uri": "music-library/USB/M2_512GB/Music/Imagine Dragons/Evolve (2017)",
     "track_count": 14
   },
   {
     "artist": "Iron Maiden",
     "album": "Greatest Hits",
-    "uri": "music-library/USB/Music/Iron Maiden/Greatest Hits 1980-2021",
+    "uri": "music-library/USB/M2_512GB/Music/Iron Maiden/Greatest Hits 1980-2021",
     "track_count": 50
+  },
+  {
+    "artist": "Jimmy Cliff",
+    "album": "Millenium Collection - Disc 1",
+    "uri": "music-library/USB/M2_512GB/Music/Jimmy Cliff/Jimmy Cliff - Millenium Collection - 2-CD-[FLAC]-[TFM]/Disc 1",
+    "track_count": 15
+  },
+  {
+    "artist": "Jimmy Cliff",
+    "album": "Millenium Collection - Disc 2",
+    "uri": "music-library/USB/M2_512GB/Music/Jimmy Cliff/Jimmy Cliff - Millenium Collection - 2-CD-[FLAC]-[TFM]/Disc 2",
+    "track_count": 17
+  },
+  {
+    "artist": "Joy Division",
+    "album": "Closer",
+    "uri": "music-library/USB/M2_512GB/Music/Joy Division/Closer",
+    "track_count": 10
+  },
+  {
+    "artist": "Joy Division",
+    "album": "Still",
+    "uri": "music-library/USB/M2_512GB/Music/Joy Division/Still",
+    "track_count": 21
+  },
+  {
+    "artist": "Joy Division",
+    "album": "Substance",
+    "uri": "music-library/USB/M2_512GB/Music/Joy Division/Substance",
+    "track_count": 18
+  },
+  {
+    "artist": "Joy Divisioon",
+    "album": "Unknown Pleasures",
+    "uri": "music-library/USB/M2_512GB/Music/Joy Division/Unknown Pleasure",
+    "track_count": 11
   },
   {
     "artist": "Kanye West",
     "album": "808s & Heartbreak",
-    "uri": "music-library/USB/Music/Kanye West/(1999) Kanye West - 808s & Heartbreak [16Bit-44.1kHz]",
+    "uri": "music-library/USB/M2_512GB/Music/Kanye West/(1999) Kanye West - 808s & Heartbreak [16Bit-44.1kHz]",
     "track_count": 12
   },
   {
     "artist": "Kanye West",
     "album": "The College Dropout",
-    "uri": "music-library/USB/Music/Kanye West/(2004) Kanye West - The College Dropout [16Bit-44.1kHz]",
+    "uri": "music-library/USB/M2_512GB/Music/Kanye West/(2004) Kanye West - The College Dropout [16Bit-44.1kHz]",
     "track_count": 21
   },
   {
     "artist": "Kanye West",
     "album": "Late Registration",
-    "uri": "music-library/USB/Music/Kanye West/(2005) Kanye West - Late Registration [16Bit-44.1kHz]",
+    "uri": "music-library/USB/M2_512GB/Music/Kanye West/(2005) Kanye West - Late Registration [16Bit-44.1kHz]",
     "track_count": 21
   },
   {
     "artist": "Kanye West",
     "album": "Graduation",
-    "uri": "music-library/USB/Music/Kanye West/(2007) Kanye West - Graduation [16Bit-44.1kHz]",
+    "uri": "music-library/USB/M2_512GB/Music/Kanye West/(2007) Kanye West - Graduation [16Bit-44.1kHz]",
     "track_count": 14
+  },
+  {
+    "artist": "Kasabian",
+    "album": "For Crying Out Loud (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Kasabian/Kasabian - For Crying Out Loud (Deluxe) (2017) [FLAC 24-44]",
+    "track_count": 27
+  },
+  {
+    "artist": "Lauryn Hill",
+    "album": "The Miseducation of Lauryn Hill",
+    "uri": "music-library/USB/M2_512GB/Music/Lauryn Hill/The Miseducation Of Lauryn Hill",
+    "track_count": 16
   },
   {
     "artist": "Linkin Park",
     "album": "Hybrid Theory",
-    "uri": "music-library/USB/Music/Linkin Park/Hybrid Theory (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Linkin Park/Hybrid Theory (Deluxe Edition)",
     "track_count": 16
+  },
+  {
+    "artist": "Madness",
+    "album": "One Step Beyond...",
+    "uri": "music-library/USB/M2_512GB/Music/Madness/1979 - One Step Beyond",
+    "track_count": 15
+  },
+  {
+    "artist": "Madness",
+    "album": "Absolutely",
+    "uri": "music-library/USB/M2_512GB/Music/Madness/1980 - Absolutely",
+    "track_count": 14
+  },
+  {
+    "artist": "Madness",
+    "album": "The Rise and Fall",
+    "uri": "music-library/USB/M2_512GB/Music/Madness/1982 - The Rise and Fall",
+    "track_count": 13
+  },
+  {
+    "artist": "Madness",
+    "album": "Keep Moving",
+    "uri": "music-library/USB/M2_512GB/Music/Madness/1984 - Keep Moving",
+    "track_count": 12
+  },
+  {
+    "artist": "Madness",
+    "album": "The Liberty of Norton Folgate",
+    "uri": "music-library/USB/M2_512GB/Music/Madness/2009 - The Liberty of Norton Folgate",
+    "track_count": 15
+  },
+  {
+    "artist": "Madonna",
+    "album": "Like A Virgin (Hi-Res Version)",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(1984) - Madonna - Like A Virgin (Hi-Res Version) [24Bit-192kHz]",
+    "track_count": 9
+  },
+  {
+    "artist": "Madonna",
+    "album": "True Blue (Hi-Res Version)",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(1986) - Madonna - True Blue (Hi-Res Version) [24Bit-192kHz]",
+    "track_count": 9
+  },
+  {
+    "artist": "Madonna",
+    "album": "The Immaculate Collection",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(1990) - Madonna - The Immaculate Collection [16Bit-44.1kHz]",
+    "track_count": 17
+  },
+  {
+    "artist": "Madonna",
+    "album": "Erotica",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(1992) - Madonna - Erotica [16Bit-44.1kHz]",
+    "track_count": 7
+  },
+  {
+    "artist": "Madonna",
+    "album": "Ray of Light",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(1998) - Madonna - Ray of Light (U.S. Version) [16Bit-44.1kHz]",
+    "track_count": 13
+  },
+  {
+    "artist": "Madonna",
+    "album": "Confessions on a Dance Floor",
+    "uri": "music-library/USB/M2_512GB/Music/Madonna/(2005) - Madonna - Confessions on a Dance Floor (12 Reg. Tracks) [16Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Massive Attack",
+    "album": "100TH WINDOW",
+    "uri": "music-library/USB/M2_512GB/Music/Massive Attack/100th Window (2003)",
+    "track_count": 9
   },
   {
     "artist": "Massive Attack",
     "album": "Blue Lines",
-    "uri": "music-library/USB/Music/Massive Attack/Blue Lines",
+    "uri": "music-library/USB/M2_512GB/Music/Massive Attack/Blue Lines",
     "track_count": 9
+  },
+  {
+    "artist": "Massive Attack",
+    "album": "Heligoland",
+    "uri": "music-library/USB/M2_512GB/Music/Massive Attack/Heligoland (2010)",
+    "track_count": 14
+  },
+  {
+    "artist": "Massive Attack",
+    "album": "Protection",
+    "uri": "music-library/USB/M2_512GB/Music/Massive Attack/Protection",
+    "track_count": 11
+  },
+  {
+    "artist": "Metallica",
+    "album": "\u2026And Justice For All",
+    "uri": "music-library/USB/M2_512GB/Music/Metallica/\u2026And Justice For All (1988)",
+    "track_count": 10
+  },
+  {
+    "artist": "Metallica",
+    "album": "Kill \u2019Em All",
+    "uri": "music-library/USB/M2_512GB/Music/Metallica/Kill \u2019Em All (1983)",
+    "track_count": 12
+  },
+  {
+    "artist": "Metallica",
+    "album": "Master Of Puppets",
+    "uri": "music-library/USB/M2_512GB/Music/Metallica/Master Of Puppets (1986)",
+    "track_count": 8
+  },
+  {
+    "artist": "Metallica",
+    "album": "Metallica",
+    "uri": "music-library/USB/M2_512GB/Music/Metallica/Metallica (Black Album) (1991)",
+    "track_count": 13
+  },
+  {
+    "artist": "Metallica",
+    "album": "Ride The Lightning",
+    "uri": "music-library/USB/M2_512GB/Music/Metallica/Ride The Lightning (1984)",
+    "track_count": 8
+  },
+  {
+    "artist": "Michael Jackson",
+    "album": "HIStory: Past, Present and Future, Book I",
+    "uri": "music-library/USB/M2_512GB/Music/Michael Jackson/HIStory - Past, Present and Future, Book I (2007)",
+    "track_count": 30
   },
   {
     "artist": "Morcheeba",
     "album": "Big Calm",
-    "uri": "music-library/USB/Music/Morcheeba/Big Calm [24 bit FLAC] vinyl",
+    "uri": "music-library/USB/M2_512GB/Music/Morcheeba/Big Calm",
     "track_count": 11
   },
   {
     "artist": "Neil Young",
     "album": "After The Gold Rush",
-    "uri": "music-library/USB/Music/Neil Young/After The Gold Rush (2009 RE HDCD) [FLAC] 88",
+    "uri": "music-library/USB/M2_512GB/Music/Neil Young/After The Gold Rush (2009 RE HDCD) [FLAC] 88",
     "track_count": 11
   },
   {
-    "artist": "Nine Inch Nails",
-    "album": "The Downward Spiral (10th Anniversary Edition) (1)",
-    "uri": "music-library/USB/Music/Nine Inch Nails/The Downward Spiral (2004)",
+    "artist": "New Order",
+    "album": "(The Best of & The Rest of) New Order",
+    "uri": "music-library/USB/M2_512GB/Music/New Order/[The Best of & The Rest of] New Order [4CD] [2026]",
+    "track_count": 16
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1984. From Her To Eternity [1996, PCCY-00915]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1984. From Her To Eternity [1996, PCCY-00915]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1985. The Firstborn Is Dead [1996, PCCY-00916]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1985. The Firstborn Is Dead [1996, PCCY-00916]",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1986. Kicking Against The Pricks [1992, ALCB-650]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1986. Kicking Against The Pricks [1992, ALCB-650]",
+    "track_count": 13
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1986. Your Funeral... My Trial [1992, ALCB-651]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1986. Your Funeral... My Trial [1992, ALCB-651]",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1988. Tender Prey [1996, 9 61059-2]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1988. Tender Prey [1996, 9 61059-2]",
+    "track_count": 11
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Tender Prey",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1988. Tender Prey [29B2-24]",
+    "track_count": 12
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1990. The Good Son [ALCB-47]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1990. The Good Son [ALCB-47]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1992. Henry's Dream [1996, 9016-2]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1992. Henry's Dream [1996, 9016-2]",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1992. Henry's Dream [ALCB-476]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1992. Henry's Dream [ALCB-476]",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Live Seeds",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1993. Live Seeds [CD STUMM122]",
+    "track_count": 13
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1994. Let Love In [PCCY-00547]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1994. Let Love In [PCCY-00547]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1996. Murder Ballads [9 46195-2]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1996. Murder Ballads [9 46195-2]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1996. Murder Ballads [LCD STUMM138]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1996. Murder Ballads [LCD STUMM138]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1996. Murder Ballads [PCCY-00885]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1996. Murder Ballads [PCCY-00885]",
+    "track_count": 13
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "1997. The Boatman's Call [TOCP-50190]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/1997. The Boatman's Call [TOCP-50190]",
     "track_count": 14
+  },
+  {
+    "artist": "2001. No More Shall We Part [lcdstumm164]",
+    "album": "CD1",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2001. No More Shall We Part [lcdstumm164]/CD1",
+    "track_count": 12
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "2003. Nocturama [86668-2]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2003. Nocturama [86668-2]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "2003. Nocturama [VJCP-68467]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2003. Nocturama [VJCP-68467]",
+    "track_count": 13
+  },
+  {
+    "artist": "2004. Abattoir Blues \u2044 The Lyre Of Orpheus [CDStumm233]",
+    "album": "CD1. Abattoir Blues",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2004. Abattoir Blues \u2044 The Lyre Of Orpheus [CDStumm233]/CD1. Abattoir Blues",
+    "track_count": 9
+  },
+  {
+    "artist": "2004. Abattoir Blues \u2044 The Lyre Of Orpheus [CDStumm233]",
+    "album": "CD2. The Lyre Of Orpheus",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2004. Abattoir Blues \u2044 The Lyre Of Orpheus [CDStumm233]/CD2. The Lyre Of Orpheus",
+    "track_count": 8
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "The Abattoir Blues Tour",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2007. The Abattoir Blues Tour [724596935224]/CD1",
+    "track_count": 8
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "The Abattoir Blues Tour",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2007. The Abattoir Blues Tour [724596935224]/CD2",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "2008. Dig, Lazarus, Dig!!! [LCDSTUMM277]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2008. Dig, Lazarus, Dig!!! [LCDSTUMM277]",
+    "track_count": 11
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "2008. Live At The Royal Albert Hall [LTTN002]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2008. Live At The Royal Albert Hall [LTTN002]",
+    "track_count": 12
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Live From KCRW",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2013. Live From KCRW [BS006CDJ]",
+    "track_count": 10
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "album": "Push The Sky Away",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2013. Push The Sky Away [BS001CD]",
+    "track_count": 9
+  },
+  {
+    "artist": "Nick Cave And The Bad Seeds",
+    "album": "2016. Skeleton Tree [BS009CD]",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2016. Skeleton Tree [BS009CD]",
+    "track_count": 8
+  },
+  {
+    "artist": "2019. Ghosteen [BS016CD]",
+    "album": "CD1",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2019. Ghosteen [BS016CD]/CD1",
+    "track_count": 8
+  },
+  {
+    "artist": "2019. Ghosteen [BS016CD]",
+    "album": "CD2",
+    "uri": "music-library/USB/M2_512GB/Music/Nick Cave And The Bad Seeds/2019. Ghosteen [BS016CD]/CD2",
+    "track_count": 3
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Broken",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Broken 1992",
+    "track_count": 8
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Ghosts I\u2013IV",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Ghosts I-IV 2008/Bonus Tracks",
+    "track_count": 2
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Ghosts I\u2013IV",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Ghosts I-IV 2008/Ghosts I",
+    "track_count": 9
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Ghosts I\u2013IV",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Ghosts I-IV 2008/Ghosts II",
+    "track_count": 9
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Ghosts I\u2013IV",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Ghosts I-IV 2008/Ghosts III",
+    "track_count": 9
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Ghosts I\u2013IV",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Ghosts I-IV 2008/Ghosts IV",
+    "track_count": 9
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Pretty Hate Machine",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - Pretty Hate Machine 1989",
+    "track_count": 10
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "The Downward Spiral (deluxe edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - The Downward Spiral 1994 (2 Cd Deluxe)/Disc 1",
+    "track_count": 14
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "The Downward Spiral (deluxe edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - The Downward Spiral 1994 (2 Cd Deluxe)/Disc 2",
+    "track_count": 13
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Halo 14 - The Fragile",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - The Fragile 1999/Left",
+    "track_count": 12
+  },
+  {
+    "artist": "Nine Inch Nails",
+    "album": "Halo 14 - The Fragile",
+    "uri": "music-library/USB/M2_512GB/Music/Nine Inch Nails/Nine Inch Nails - The Fragile 1999/Right",
+    "track_count": 11
   },
   {
     "artist": "Oasis",
     "album": "(What\u2019s the Story) Morning Glory?",
-    "uri": "music-library/USB/Music/Oasis/(What's The Story) Morning Glory-",
+    "uri": "music-library/USB/M2_512GB/Music/Oasis/(What's The Story) Morning Glory-",
     "track_count": 12
+  },
+  {
+    "artist": "Paul Kelly",
+    "album": "Paul Kelly's Christmas Train",
+    "uri": "music-library/USB/M2_512GB/Music/Paul Kelly/Paul Kelly's Christmas Train (2021)",
+    "track_count": 22
+  },
+  {
+    "artist": "Paul Kelly",
+    "album": "Songs From The South",
+    "uri": "music-library/USB/M2_512GB/Music/Paul Kelly/Songs From The South Vol 1",
+    "track_count": 20
+  },
+  {
+    "artist": "Pearl Jam",
+    "album": "Rearviewmirror (Greatest Hits 1991\u20132003) (1)",
+    "uri": "music-library/USB/M2_512GB/Music/Pearl Jam/Rearviewmirror (Greatest Hits 1991-2003)/CD 1 - Up Side",
+    "track_count": 17
+  },
+  {
+    "artist": "Pearl Jam",
+    "album": "Rearviewmirror (Greatest Hits 1991\u20132003) (2)",
+    "uri": "music-library/USB/M2_512GB/Music/Pearl Jam/Rearviewmirror (Greatest Hits 1991-2003)/CD 2 - Down Side",
+    "track_count": 18
   },
   {
     "artist": "Pink Floyd",
     "album": "The Division Bell",
-    "uri": "music-library/USB/Music/Pink Floyd/The Division Bell",
+    "uri": "music-library/USB/M2_512GB/Music/Pink Floyd/The Division Bell",
     "track_count": 11
+  },
+  {
+    "artist": "Pixies",
+    "album": "Bossanova",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Bossanova 1990",
+    "track_count": 15
+  },
+  {
+    "artist": "Pixies",
+    "album": "Come On Pilgrim",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Come On Pilgrim 1987",
+    "track_count": 9
+  },
+  {
+    "artist": "Pixies",
+    "album": "Death To The Pixies (Live CD)",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Death To The Pixies 1997",
+    "track_count": 21
+  },
+  {
+    "artist": "Pixies",
+    "album": "Doolittle",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Doolittle 1989",
+    "track_count": 16
+  },
+  {
+    "artist": "Pixies",
+    "album": "Surfer Rosa",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Surfer Rosa 1988",
+    "track_count": 14
+  },
+  {
+    "artist": "Pixies",
+    "album": "Trompe Le Monde",
+    "uri": "music-library/USB/M2_512GB/Music/Pixies/Trompe Le Monde  1991",
+    "track_count": 15
+  },
+  {
+    "artist": "Portishead",
+    "album": "Dummy",
+    "uri": "music-library/USB/M2_512GB/Music/Portishead/Portishead - Dummy - 24.96 Flac (Vinyl)",
+    "track_count": 10
+  },
+  {
+    "artist": "Portishead",
+    "album": "Portishead",
+    "uri": "music-library/USB/M2_512GB/Music/Portishead/Portishead - Portishead (1997) [FLAC]",
+    "track_count": 12
   },
   {
     "artist": "Prince",
     "album": "1999",
-    "uri": "music-library/USB/Music/Prince/1999 (1982)",
+    "uri": "music-library/USB/M2_512GB/Music/Prince/1999 (1982)",
     "track_count": 12
   },
   {
     "artist": "Prince",
     "album": "Purple Rain",
-    "uri": "music-library/USB/Music/Prince/Purple Rain (1984)",
+    "uri": "music-library/USB/M2_512GB/Music/Prince/Purple Rain (1984)",
     "track_count": 10
   },
   {
     "artist": "Prodigy",
     "album": "The Fat of the Land",
-    "uri": "music-library/USB/Music/Prodigy/The_Fat_of_the_Land-1997-FLAC-RLG-repack-MK",
+    "uri": "music-library/USB/M2_512GB/Music/Prodigy/The_Fat_of_the_Land-1997-FLAC-RLG-repack-MK",
     "track_count": 10
   },
   {
+    "artist": "Public Enemy",
+    "album": "It Takes A Nation Of Millions To Hold Us Back",
+    "uri": "music-library/USB/M2_512GB/Music/Public Enemy/Public Enemy - Takes a Nation of Millions to Hold Us Back [FLAC]",
+    "track_count": 16
+  },
+  {
+    "artist": "Public Image Ltd.",
+    "album": "First Issue",
+    "uri": "music-library/USB/M2_512GB/Music/Public Image Ltd/(1978) Public Image Ltd. - First Issue [16Bit-44.1kHz]",
+    "track_count": 10
+  },
+  {
+    "artist": "Public Image Ltd.",
+    "album": "Second Edition",
+    "uri": "music-library/USB/M2_512GB/Music/Public Image Ltd/(1979) Public Image Ltd. - Second Edition [16Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Public Image Ltd.",
+    "album": "The Flowers Of Romance",
+    "uri": "music-library/USB/M2_512GB/Music/Public Image Ltd/(1981) Public Image Ltd. - The Flowers Of Romance [16Bit-44.1kHz]",
+    "track_count": 9
+  },
+  {
+    "artist": "Public Image Ltd.",
+    "album": "Public Image Ltd.",
+    "uri": "music-library/USB/M2_512GB/Music/Public Image Ltd/(1986) Public Image Ltd. - Public Image Ltd. [16Bit-44.1kHz]",
+    "track_count": 7
+  },
+  {
+    "artist": "Queen",
+    "album": "Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/Queen/Greatest Hits (1981)",
+    "track_count": 18
+  },
+  {
     "artist": "Radiohead",
-    "album": "OK Computer (1)",
-    "uri": "music-library/USB/Music/Radiohead/OK Computer (1997,2009 Deluxe) [FLAC] 88",
+    "album": "OK Computer",
+    "uri": "music-library/USB/M2_512GB/Music/Radiohead/OK Computer (1997,2009 Deluxe)",
     "track_count": 27
   },
   {
-    "artist": "Rage Against the Machine",
-    "album": "Rage Against the Machine XX",
-    "uri": "music-library/USB/Music/Rage Against The Machine/Rage Against The Machine XX (CD1)",
+    "artist": "Radiohead",
+    "album": "The Bends (1)",
+    "uri": "music-library/USB/M2_512GB/Music/Radiohead/The Bends (1995, 2009 Deluxe Edition)/CD 1",
     "track_count": 13
+  },
+  {
+    "artist": "Radiohead",
+    "album": "The Bends (2)",
+    "uri": "music-library/USB/M2_512GB/Music/Radiohead/The Bends (1995, 2009 Deluxe Edition)/CD 2",
+    "track_count": 22
+  },
+  {
+    "artist": "Rage Against The Machine",
+    "album": "Rage Against The Machine",
+    "uri": "music-library/USB/M2_512GB/Music/Rage Against The Machine/(1992) Rage Against The Machine - Rage Against The Machine [24Bit-44.1kHz]",
+    "track_count": 10
+  },
+  {
+    "artist": "Rage Against The Machine",
+    "album": "Evil Empire",
+    "uri": "music-library/USB/M2_512GB/Music/Rage Against The Machine/(1996) Rage Against The Machine - Evil Empire [16Bit-44.1kHz]",
+    "track_count": 11
+  },
+  {
+    "artist": "Rage Against The Machine",
+    "album": "The Battle Of Los Angeles",
+    "uri": "music-library/USB/M2_512GB/Music/Rage Against The Machine/(1999) Rage Against The Machine - The Battle Of Los Angeles [16Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Rage Against The Machine",
+    "album": "Renegades",
+    "uri": "music-library/USB/M2_512GB/Music/Rage Against The Machine/(2000) Rage Against The Machine - Renegades [16Bit-44.1kHz]",
+    "track_count": 12
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "album": "Californication",
+    "uri": "music-library/USB/M2_512GB/Music/Red Hot Chilli Peppers/Californication",
+    "track_count": 15
   },
   {
     "artist": "R.E.M.",
     "album": "Automatic for the People",
-    "uri": "music-library/USB/Music/REM/REM - Automatic for the People [FLAC] [h33t] - Kitlope",
+    "uri": "music-library/USB/M2_512GB/Music/REM/Automatic for the People",
     "track_count": 12
+  },
+  {
+    "artist": "Robbie Williams",
+    "album": "Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/Robbie Williams/Robbie Williams - Greatest Hits (2004)",
+    "track_count": 20
+  },
+  {
+    "artist": "Seal",
+    "album": "Hits [CD-01]",
+    "uri": "music-library/USB/M2_512GB/Music/Seal/Seal - Hits (2009) [FLAC] vtwin88cube/CD1",
+    "track_count": 19
+  },
+  {
+    "artist": "Seal",
+    "album": "Hits [CD-02]",
+    "uri": "music-library/USB/M2_512GB/Music/Seal/Seal - Hits (2009) [FLAC] vtwin88cube/CD2",
+    "track_count": 17
+  },
+  {
+    "artist": "Shihad",
+    "album": "FVEY",
+    "uri": "music-library/USB/M2_512GB/Music/Shihad/FVEY [Limited Edition] (2014)",
+    "track_count": 16
   },
   {
     "artist": "Shriekback",
     "album": "The Best of Shriekback, Volume 2: Evolution",
-    "uri": "music-library/USB/Music/Shriekback/Natural History (The Very Best Of) (1994)",
+    "uri": "music-library/USB/M2_512GB/Music/Shriekback/Natural History (The Very Best Of) (1994)",
     "track_count": 23
   },
   {
-    "artist": "Talking Heads",
-    "album": "Remain In Light",
-    "uri": "music-library/USB/Music/Talking Heads/Remain In Light (1980,1984) [FLAC] 88",
-    "track_count": 8
+    "artist": "Soundgarden",
+    "album": "Superunknown",
+    "uri": "music-library/USB/M2_512GB/Music/Soundgarden/Superunknown (1994)",
+    "track_count": 17
+  },
+  {
+    "artist": "Split Enz",
+    "album": "History Never Repeats: The Best of Split Enz",
+    "uri": "music-library/USB/M2_512GB/Music/Split Enz/The Best Of Split Enz History Never Repeats 2002",
+    "track_count": 17
+  },
+  {
+    "artist": "Stereophonics",
+    "album": "Just Enough Education To Perform",
+    "uri": "music-library/USB/M2_512GB/Music/Stereophonics/Just Enough Education To Perform (2001)/Split tracks (12)",
+    "track_count": 2
+  },
+  {
+    "artist": "Stereophonics",
+    "album": "Word Gets Around",
+    "uri": "music-library/USB/M2_512GB/Music/Stereophonics/Word Gets Around (1997)",
+    "track_count": 12
+  },
+  {
+    "artist": "Stereophonics",
+    "album": "You Gotta Go There To Come Back",
+    "uri": "music-library/USB/M2_512GB/Music/Stereophonics/You Gotta Go There To Come Back (2003)",
+    "track_count": 14
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Fulfillingness\u2019 First Finale",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Fulfillingness First Finale (1974)",
+    "track_count": 10
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Innervisions",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Innervisions (1973)",
+    "track_count": 9
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Music of My Mind",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Music Of My Mind (1972)",
+    "track_count": 9
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Songs in the Key of Life",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Songs In The key Of Life (1976)/CD1",
+    "track_count": 12
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Songs in the Key of Life",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Songs In The key Of Life (1976)/CD2",
+    "track_count": 9
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Talking Book",
+    "uri": "music-library/USB/M2_512GB/Music/Stevie Wonder/Talking Book (1972)",
+    "track_count": 10
+  },
+  {
+    "artist": "Sublime",
+    "album": "Sublime",
+    "uri": "music-library/USB/M2_512GB/Music/Sublime/Sublime (1996)",
+    "track_count": 18
+  },
+  {
+    "artist": "The Cars",
+    "album": "The Cars",
+    "uri": "music-library/USB/M2_512GB/Music/The Cars/1978 - The Cars",
+    "track_count": 10
+  },
+  {
+    "artist": "The Cars",
+    "album": "Complete Greatest Hits",
+    "uri": "music-library/USB/M2_512GB/Music/The Cars/2002 - Complete Greatest Hits",
+    "track_count": 21
   },
   {
     "artist": "The Church",
     "album": "Starfish",
-    "uri": "music-library/USB/Music/The Church/Starfish 1988",
+    "uri": "music-library/USB/M2_512GB/Music/The Church/Starfish 1988",
     "track_count": 22
+  },
+  {
+    "artist": "The Clash",
+    "album": "The Clash",
+    "uri": "music-library/USB/M2_512GB/Music/The Clash/The Clash (1977)",
+    "track_count": 14
   },
   {
     "artist": "The Cranberries",
     "album": "Everybody Else Is Doing It, So Why Can\u2019t We?",
-    "uri": "music-library/USB/Music/The Cranberries\uf028/1993 - Everybody Else Is Doing It, So Why Can't We",
+    "uri": "music-library/USB/M2_512GB/Music/The Cranberries\uf028/1993 - Everybody Else Is Doing It, So Why Can't We",
     "track_count": 12
   },
   {
     "artist": "The Cranberries",
     "album": "No Need to Argue",
-    "uri": "music-library/USB/Music/The Cranberries\uf028/1994 - No Need To Argue",
+    "uri": "music-library/USB/M2_512GB/Music/The Cranberries\uf028/1994 - No Need To Argue",
     "track_count": 13
   },
   {
     "artist": "The Cranberries",
     "album": "To the Faithful Departed",
-    "uri": "music-library/USB/Music/The Cranberries\uf028/1996 - To The Faithful Departed",
+    "uri": "music-library/USB/M2_512GB/Music/The Cranberries\uf028/1996 - To The Faithful Departed",
     "track_count": 13
   },
   {
     "artist": "The Cranberries",
     "album": "Bury the Hatchet",
-    "uri": "music-library/USB/Music/The Cranberries\uf028/1999 - Bury The Hatchet",
+    "uri": "music-library/USB/M2_512GB/Music/The Cranberries\uf028/1999 - Bury The Hatchet",
     "track_count": 14
   },
   {
     "artist": "The Cranberries",
     "album": "Wake Up and Smell the Coffee",
-    "uri": "music-library/USB/Music/The Cranberries\uf028/2001 - Wake Up And Smell The Coffee",
+    "uri": "music-library/USB/M2_512GB/Music/The Cranberries\uf028/2001 - Wake Up And Smell The Coffee",
     "track_count": 14
   },
   {
     "artist": "The Cult",
     "album": "Pure Cult: The Singles 1984-1995",
-    "uri": "music-library/USB/Music/The Cult/Pure Cult The Singles 1984-1995 (2000) (PBTHAL LP 24-96) [FLAC] vtwin88cube",
+    "uri": "music-library/USB/M2_512GB/Music/The Cult/Pure Cult The Singles 1984-1995 (2000) (PBTHAL LP 24-96) [FLAC] vtwin88cube",
     "track_count": 20
   },
   {
     "artist": "The Cure",
     "album": "4:13 Dream",
-    "uri": "music-library/USB/Music/The Cure/4-13 Dream",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/4-13 Dream",
     "track_count": 13
   },
   {
     "artist": "The Cure",
     "album": "Disintegration",
-    "uri": "music-library/USB/Music/The Cure/Disintegration",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Disintegration",
     "track_count": 12
   },
   {
     "artist": "The Cure",
     "album": "Japanese Whispers",
-    "uri": "music-library/USB/Music/The Cure/Japanese Whispers",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Japanese Whispers",
     "track_count": 8
   },
   {
     "artist": "The Cure",
     "album": "Kiss Me Kiss Me Kiss Me",
-    "uri": "music-library/USB/Music/The Cure/Kiss Me Kiss Me Kiss Me",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Kiss Me Kiss Me Kiss Me",
     "track_count": 18
   },
   {
     "artist": "The Cure",
     "album": "Seventeen Seconds",
-    "uri": "music-library/USB/Music/The Cure/Seventeen Seconds",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Seventeen Seconds",
     "track_count": 10
   },
   {
     "artist": "The Cure",
     "album": "Songs of a Lost World",
-    "uri": "music-library/USB/Music/The Cure/Songs Of A Lost World",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Songs Of A Lost World",
     "track_count": 8
   },
   {
     "artist": "The Cure",
     "album": "Staring at the Sea: The Singles",
-    "uri": "music-library/USB/Music/The Cure/Staring At The Sea- The Singles",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Staring At The Sea- The Singles",
     "track_count": 17
   },
   {
     "artist": "The Cure",
     "album": "The Cure",
-    "uri": "music-library/USB/Music/The Cure/The Cure",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/The Cure",
     "track_count": 13
   },
   {
     "artist": "The Cure",
     "album": "The Head on the Door",
-    "uri": "music-library/USB/Music/The Cure/The Head On The Door",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/The Head On The Door",
     "track_count": 10
   },
   {
     "artist": "The Cure",
     "album": "Three Imaginary Boys",
-    "uri": "music-library/USB/Music/The Cure/Three Imaginary Boys",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Three Imaginary Boys",
     "track_count": 13
   },
   {
     "artist": "The Cure",
     "album": "Wild Mood Swings",
-    "uri": "music-library/USB/Music/The Cure/Wild Mood Swings",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Wild Mood Swings",
     "track_count": 14
   },
   {
     "artist": "The Cure",
     "album": "Wish (deluxe edition)",
-    "uri": "music-library/USB/Music/The Cure/Wish (30th Anniversary Edition) (1)",
+    "uri": "music-library/USB/M2_512GB/Music/The Cure/Wish (30th Anniversary Edition) (1)",
     "track_count": 12
+  },
+  {
+    "artist": "The Jesus and Mary Chain",
+    "album": "Psychocandy",
+    "uri": "music-library/USB/M2_512GB/Music/The Jesus and Mary Chain/The Jesus and Mary Chain - Psychocandy [FLAC-1985]",
+    "track_count": 15
+  },
+  {
+    "artist": "The Killers",
+    "album": "Hot Fuss",
+    "uri": "music-library/USB/M2_512GB/Music/The Killers/2004 Hot Fuss",
+    "track_count": 11
+  },
+  {
+    "artist": "The Killers",
+    "album": "Sam's Town",
+    "uri": "music-library/USB/M2_512GB/Music/The Killers/2006 Sam's Town",
+    "track_count": 12
+  },
+  {
+    "artist": "The Killers",
+    "album": "Day & Age",
+    "uri": "music-library/USB/M2_512GB/Music/The Killers/2008 Day & Age",
+    "track_count": 12
+  },
+  {
+    "artist": "The Killers",
+    "album": "Battle Born",
+    "uri": "music-library/USB/M2_512GB/Music/The Killers/2012 - Battle Born [Target Deluxe] (CD)",
+    "track_count": 17
+  },
+  {
+    "artist": "The Offspring",
+    "album": "Smash",
+    "uri": "music-library/USB/M2_512GB/Music/The Offspring/1994 - Smash",
+    "track_count": 14
+  },
+  {
+    "artist": "The Offspring",
+    "album": "Americana",
+    "uri": "music-library/USB/M2_512GB/Music/The Offspring/1998 - Americana",
+    "track_count": 13
+  },
+  {
+    "artist": "The Offspring",
+    "album": "Ignition",
+    "uri": "music-library/USB/M2_512GB/Music/The Offspring/Ignition (1992)",
+    "track_count": 12
+  },
+  {
+    "artist": "The Offspring",
+    "album": "Ixnay On The Hombre",
+    "uri": "music-library/USB/M2_512GB/Music/The Offspring/Ixnay On The Hombre (1997)",
+    "track_count": 14
   },
   {
     "artist": "The Pogues ",
     "album": "Rum, sodomy, and the lash ",
-    "uri": "music-library/USB/Music/The Pogues/Rum, Sodomy And The Lash (1985)",
+    "uri": "music-library/USB/M2_512GB/Music/The Pogues/Rum, Sodomy And The Lash (1985)",
     "track_count": 12
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "England\u2019s Newest Hit Makers",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1964] - England's Newest Hit Makers [2002 Remaster ABKCO 8822872]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "December's Children (And Everybody's)",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1965] - December's Children (And Everybody's) [2002 Remaster ABKCO 8822922]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Out Of Our Heads",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1965] - Out Of Our Heads [2002 Remaster ABKCO 8822912]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "The Rolling Stones No. 2",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1965] - The Rolling Stones No. 2 [Polydor P25L 25033]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "The Rolling Stones, Now!",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1965] - The Rolling Stones, Now! [2002 Remaster ABKCO 94202]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Aftermath",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1966] - Aftermath [2002 Remaster ABKCO 94762]",
+    "track_count": 12
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Between The Buttons",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1967] - Between The Buttons [2002 Remaster ABKCO 8822972]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Their Satanic Majesties Request",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1967] - Their Satanic Majesties Request [2002 Remaster ABKCO 90022]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Beggars Banquet",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1968] - Beggars Banquet [2002 Remaster ABKCO 95392]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Let It Bleed",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1969] - Let It Bleed [2002 Remaster ABKCO 90042]",
+    "track_count": 10
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Sticky Fingers",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1971] - Sticky Fingers [1994 Remaster Virgin CDV 2730]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Exile On Main St.",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1972] - Exile On Main St. [1994 Remaster Virgin 7243-8-39524-2-7]",
+    "track_count": 19
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Goats Head Soup",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1973] - Goats Head Soup [1986 Remaster CBS 450207 2]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "It's Only Rock 'N Roll",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1974] - It's Only Rock 'N Roll [1986 Remaster CBS 450202 2]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Black And Blue",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1976] - Black And Blue [1986 Remaster CBS 450203 2]",
+    "track_count": 9
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Some Girls",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1978] - Some Girls [1987 Remaster CBS 450197 2]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Emotional Rescue",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1980] - Emotional Rescue [1994 Remaster Virgin CDV 2737]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Tattoo You",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1981] - Tattoo You [1994 Remaster Virgin CDV 2732]",
+    "track_count": 12
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Undercover",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1983] - Undercover [1994 Remaster Virgin CDV 2741]",
+    "track_count": 11
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Dirty Work",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1986] - Dirty Work [1994 Remaster Virgin CDV 2743]",
+    "track_count": 12
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Steel Wheels",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1989] - Steel Wheels [1994 Remaster Virgin CDV 2742]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Voodoo Lounge",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1994] - Voodoo Lounge [1994 Remaster Virgin CDV 2750]",
+    "track_count": 16
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Bridges To Babylon",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[1997] - Bridges To Babylon [Virgin CDV 2840]",
+    "track_count": 14
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "A Bigger Bang",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[2005] - A Bigger Bang [Virgin CDV 3012]",
+    "track_count": 17
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Blue & Lonesome",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[2016] - Blue & Lonesome [Polydor 571 494-2]",
+    "track_count": 13
+  },
+  {
+    "artist": "The Rolling Stones",
+    "album": "Hackney Diamonds",
+    "uri": "music-library/USB/M2_512GB/Music/The Rolling Stones/[2023] - Hackney Diamonds",
+    "track_count": 12
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Hatful of Hollow",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1984 Hatful of Hollow",
+    "track_count": 16
+  },
+  {
+    "artist": "The Smiths",
+    "album": "The Smiths",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1984 The Smiths",
+    "track_count": 11
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Meat Is Murder",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1985 Meat Is Murder",
+    "track_count": 10
+  },
+  {
+    "artist": "The Smiths",
+    "album": "The Queen Is Dead",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1986 The Queen Is Dead",
+    "track_count": 11
+  },
+  {
+    "artist": "The Smiths",
+    "album": "The World Won't Listen",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1986 The World Won't Listen",
+    "track_count": 17
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Louder Than Bombs",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1987 Louder Than Bombs",
+    "track_count": 25
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Strangeways, Here We Come",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1987 Strangways, Here We Come",
+    "track_count": 11
+  },
+  {
+    "artist": "The Smiths",
+    "album": "The Peel Session",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1988 The Peel Sessions",
+    "track_count": 5
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Handsome Devils",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/1992 Handsome Devils",
+    "track_count": 7
+  },
+  {
+    "artist": "The Smiths",
+    "album": "Singles Box",
+    "uri": "music-library/USB/M2_512GB/Music/The Smiths/2008 Singles Box",
+    "track_count": 24
   },
   {
     "artist": "The Specials",
     "album": "Specials",
-    "uri": "music-library/USB/Music/The Specials/The Specials",
+    "uri": "music-library/USB/M2_512GB/Music/The Specials/The Specials",
     "track_count": 14
   },
   {
     "artist": "Tom Cochrane",
     "album": "Mad Mad World",
-    "uri": "music-library/USB/Music/Tom Cochrane/Tom Cochrane - Mad Mad World [FLAC-1991]",
+    "uri": "music-library/USB/M2_512GB/Music/Tom Cochrane/Tom Cochrane - Mad Mad World [FLAC-1991]",
     "track_count": 13
   },
   {
     "artist": "U2",
     "album": "All That You Can't Leave Behind",
-    "uri": "music-library/USB/Music/U2/All That You Can't Leave Behind (Super Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/U2/All That You Can't Leave Behind (Super Deluxe Edition)",
     "track_count": 11
   },
   {
     "artist": "U2",
     "album": "How to Dismantle an Atomic Bomb",
-    "uri": "music-library/USB/Music/U2/How To Dismantle An Atomic Bomb",
+    "uri": "music-library/USB/M2_512GB/Music/U2/How To Dismantle An Atomic Bomb",
     "track_count": 11
   },
   {
     "artist": "U2",
     "album": "No Line on the Horizon",
-    "uri": "music-library/USB/Music/U2/No Line On The Horizon 2009",
+    "uri": "music-library/USB/M2_512GB/Music/U2/No Line On The Horizon 2009",
     "track_count": 11
   },
   {
     "artist": "U2",
     "album": "Pop",
-    "uri": "music-library/USB/Music/U2/Pop 1997",
+    "uri": "music-library/USB/M2_512GB/Music/U2/Pop 1997",
     "track_count": 12
   },
   {
     "artist": "U2",
     "album": "Songs Of Experience (Deluxe Edition)",
-    "uri": "music-library/USB/Music/U2/Songs Of Experience (2017)",
+    "uri": "music-library/USB/M2_512GB/Music/U2/Songs Of Experience (2017)",
     "track_count": 19
   },
   {
     "artist": "U2",
     "album": "Songs of Innocence",
-    "uri": "music-library/USB/Music/U2/Songs of Innocence",
+    "uri": "music-library/USB/M2_512GB/Music/U2/Songs of Innocence",
     "track_count": 21
   },
   {
     "artist": "U2",
+    "album": "Carnaval De Luz",
+    "uri": "music-library/USB/M2_512GB/Music/U2/U2 - Carnaval De Luz .2026.FLAC.[16bit.44.1khz]-EICHBAUM",
+    "track_count": 12
+  },
+  {
+    "artist": "U2",
     "album": "Zooropa",
-    "uri": "music-library/USB/Music/U2/Zooropa 1993",
+    "uri": "music-library/USB/M2_512GB/Music/U2/Zooropa 1993",
     "track_count": 10
+  },
+  {
+    "artist": "UB40",
+    "album": "Essential",
+    "uri": "music-library/USB/M2_512GB/Music/UB40/UB40 - Essential (2020) [FLAC]/CD1",
+    "track_count": 19
+  },
+  {
+    "artist": "UB40",
+    "album": "Essential",
+    "uri": "music-library/USB/M2_512GB/Music/UB40/UB40 - Essential (2020) [FLAC]/CD2",
+    "track_count": 17
+  },
+  {
+    "artist": "UB40",
+    "album": "Essential",
+    "uri": "music-library/USB/M2_512GB/Music/UB40/UB40 - Essential (2020) [FLAC]/CD3",
+    "track_count": 19
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Van Halen",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1978 - Van Halen (2000 HDCD RM)",
+    "track_count": 12
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Van Halen II",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1979 - Van Halen - II (2000 HDCD RM)",
+    "track_count": 11
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Women And Children First",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1980 - Women And Children First (2000 HDCD RM)",
+    "track_count": 10
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Fair Warning",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1981 - Fair Warning (2000 HDCD RM)",
+    "track_count": 10
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Diver Down",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1982 - Diver Down (2000 HDCD RM)",
+    "track_count": 13
+  },
+  {
+    "artist": "Van Halen",
+    "album": "1984",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1984 - 1984 (2000 HDCD RM)",
+    "track_count": 10
+  },
+  {
+    "artist": "Van Halen",
+    "album": "5150",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1986 - 5150 (2023 RM)",
+    "track_count": 10
+  },
+  {
+    "artist": "Van Halen",
+    "album": "OU812",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1988 - OU812 (2023 RM)",
+    "track_count": 10
+  },
+  {
+    "artist": "Van Halen",
+    "album": "For Unlawful Carnal Knowledge",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1991 - For Unlawful Carnal Knowledge (2023 RM)",
+    "track_count": 12
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Balance",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1995 - Balance (2023 RM)",
+    "track_count": 12
+  },
+  {
+    "artist": "Van Halen",
+    "album": "Van Halen III",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/1998 - Van Halen III",
+    "track_count": 13
+  },
+  {
+    "artist": "Van Halen",
+    "album": "A Different Kind Of Truth",
+    "uri": "music-library/USB/M2_512GB/Music/Van Halen/2012 - A Different Kind Of Truth",
+    "track_count": 14
   },
   {
     "artist": "Van Morrison",
     "album": "Astral Weeks",
-    "uri": "music-library/USB/Music/Van Morrison/Astral Weeks (2013 Remaster) (1968 Rock) [Flac 24-192]",
+    "uri": "music-library/USB/M2_512GB/Music/Van Morrison/Astral Weeks (2013 Remaster) (1968 Rock) [Flac 24-192]",
     "track_count": 8
   },
   {
     "artist": "Them",
     "album": "The Essential Van Morrison",
-    "uri": "music-library/USB/Music/Van Morrison/The Essential Van Morrison (2015) [FLAC] 88",
+    "uri": "music-library/USB/M2_512GB/Music/Van Morrison/The Essential Van Morrison (2015) [FLAC] 88",
     "track_count": 37
   },
   {
     "artist": "[no artist]",
     "album": "Lost in Translation: Music From the Motion Picture Soundtrack",
-    "uri": "music-library/USB/Music/Various Artists/Lost in Translation (2003)",
+    "uri": "music-library/USB/M2_512GB/Music/Various Artists/Lost in Translation (2003)",
+    "track_count": 15
+  },
+  {
+    "artist": "Iggy Pop",
+    "album": "Trainspotting",
+    "uri": "music-library/USB/M2_512GB/Music/Various Artists/Trainspotting - soundtrack",
+    "track_count": 14
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1994 - Weezer/CD1",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1994 - Weezer/CD2",
+    "track_count": 14
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Blue Album Deluxe Edition) (Disc 1)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1994 - Weezer (Blue Album) (2004 Deluxe Edition)/Disc 1",
+    "track_count": 11
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Blue Album Deluxe Edition) (Disc 2)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1994 - Weezer (Blue Album) (2004 Deluxe Edition)/Disc 2",
     "track_count": 15
   },
   {
     "artist": "Weezer",
-    "album": "Weezer (deluxe edition)",
-    "uri": "music-library/USB/Music/Weezer/Weezer (Blue Album)",
+    "album": "Pinkerton",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1996 - Pinkerton",
     "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Pinkerton (Deluxe Edition) (Disc 1)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1996 - Pinkerton (2010 Deluxe Edition)/Disc 1",
+    "track_count": 21
+  },
+  {
+    "artist": "Weezer",
+    "album": "Pinkerton (Deluxe Edition) (Disc 2)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/1996 - Pinkerton (2010 Deluxe Edition)/Disc 2",
+    "track_count": 17
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Green Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2001 - Weezer (Green Album)",
+    "track_count": 23
+  },
+  {
+    "artist": "Weezer",
+    "album": "Maladroit",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2002 - Maladroit",
+    "track_count": 27
+  },
+  {
+    "artist": "Weezer",
+    "album": "The Lion And The Witch (EP)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2002 - The Lion And The Witch (EP)",
+    "track_count": 7
+  },
+  {
+    "artist": "Weezer",
+    "album": "Make Believe",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2005 - Make Believe",
+    "track_count": 25
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Red Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2008 - Weezer (Red Album)",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Red Album) (Japan Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2008 - Weezer (Red Album) (Japan Deluxe Edition)",
+    "track_count": 17
+  },
+  {
+    "artist": "Weezer",
+    "album": "Raditude",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2009 - Raditude",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Raditude (Japan Edition) (Disc 1)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2009 - Raditude (Japan Edition)/Disc 1",
+    "track_count": 13
+  },
+  {
+    "artist": "Weezer",
+    "album": "Raditude (Japan Edition) (Disc 2)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2009 - Raditude (Japan Edition)/Disc 2",
+    "track_count": 5
+  },
+  {
+    "artist": "Weezer",
+    "album": "Death to False Metal",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2010 - Death to False Metal",
+    "track_count": 21
+  },
+  {
+    "artist": "Weezer",
+    "album": "Hurley",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2010 - Hurley",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Hurley (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2010 - Hurley (Deluxe Edtion)",
+    "track_count": 15
+  },
+  {
+    "artist": "Weezer",
+    "album": "Everything Will Be Alright in the End",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2014 - Everything Will Be Alright in the End",
+    "track_count": 27
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (White Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2016 - Weezer (White Album)",
+    "track_count": 15
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (White Album) (Deluxe Edition)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2016 - Weezer (White Album) (Deluxe Edition)",
+    "track_count": 16
+  },
+  {
+    "artist": "Weezer",
+    "album": "Pacific Daydream",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2017 - Pacific Daydream",
+    "track_count": 22
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Black Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2019 - Weezer (Black Album)",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Teal Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2019 - Weezer (Teal Album)",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Teal Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2019a - Weezer (Teal Album)",
+    "track_count": 11
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer (Black Album)",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2019b - Weezer (Black Album)",
+    "track_count": 11
+  },
+  {
+    "artist": "Weezer",
+    "album": "OK Human",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2021 - OK Human",
+    "track_count": 25
+  },
+  {
+    "artist": "Weezer",
+    "album": "Van Weezer",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2021 - Van Weezer",
+    "track_count": 10
+  },
+  {
+    "artist": "Weezer",
+    "album": "Van Weezer",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2021 \u2013 Van Weezer",
+    "track_count": 11
+  },
+  {
+    "artist": "Weezer",
+    "album": "Weezer",
+    "uri": "music-library/USB/M2_512GB/Music/Weezer/2026 - Weezer (Gold Album)",
+    "track_count": 10
+  },
+  {
+    "artist": "Wu-Tang Clan",
+    "album": "Enter The Wu-Tang (36 Chambers)",
+    "uri": "music-library/USB/M2_512GB/Music/Wu-Tang Clan/Enter The Wu Tang (36 Chambers) - 1993",
+    "track_count": 12
   },
   {
     "artist": "ZZ Top",
     "album": "Deg\u00fcello (Remastered)",
-    "uri": "music-library/USB/Music/ZZ Top/Deg\u00fcello (1979)",
+    "uri": "music-library/USB/M2_512GB/Music/ZZ Top/Deg\u00fcello (1979)",
     "track_count": 10
   }
 ]
